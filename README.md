@@ -1,2 +1,2 @@
 # Cosmos-TNG-Mod
-TNG mod for Artemis Cosmos
+TNG mod for Artemis Cosmos 1.2.0
