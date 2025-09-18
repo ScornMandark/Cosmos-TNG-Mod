@@ -160,7 +160,7 @@
   "space_explosion": "TNG_explosion",
   "nuke_explosion": "TNG_explosion",
   "emp_explosion": "TNG_explosion",
-  "torp_impact": "TNG_missile_hit",
+  "torp_impact": "TNG_player_hull_hit",
   "tractor_beam": "TNG_tractor",
   "station_attacked": "",
   "player_collision": "collision",
