@@ -932,7 +932,7 @@
             "barrel_angle": 195
           },
           {
-            "position": [ -18.689, -25.988, -260.189 ],
+            "position": [ 18.689, -25.988, -260.189 ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 5.5,
@@ -997,7 +997,7 @@
             "cycle_time": 7.5,
             "damage_coeff": 3.2,
             "range": 1400,
-            "arcwidth": 190,
+            "arcwidth": 120,
             "barrel_angle": 345
           },
           {
