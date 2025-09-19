@@ -28,9 +28,9 @@
   "scriptTickDelay": 5,
 
   // this is a scaling coeff for every 3d object in the game
-  "space-object-size-coeff": 1.0,
+  "space-object-size-coeff": 0.5,
   // this is a scaling coeff for the 3d ship widget
-  "ship-in-box-size-coeff": 1.0,
+  "ship-in-box-size-coeff": 1.5,
 
   // these values define the limits of the 3D view
   "render-distance-beams": 4000,
@@ -371,6 +371,7 @@
   ]
 
 }
+
 
 
 
