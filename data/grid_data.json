@@ -759,7 +759,7 @@
    {"x": 6.0,"y": 2.0,"name": "astro-lab","roles": "room,lab,astro"},
    {"x": 8.0,"y": 2.0,"name": "astro-lab","roles": "room,lab,astro"}
   ]},
-"klg_brel":
+"kralien_cruiser":
  {"grid_objects": [
    {"x": 8.0,"y": 0.0,"name": "torp-tube","roles": "system,weapon,torpedo"},
    {"x": 8.0,"y": 1.0,"name": "torp-tube","roles": "system,weapon,torpedo"},
@@ -900,7 +900,7 @@
    {"x": 4.0,"y": 9.0,"name": "sick-bay","roles": "room,med,sickbay"},
    {"x": 12.0,"y": 9.0,"name": "sick-bay","roles": "room,med,sickbay"}
   ]},
-"klg_vorcha":
+"kralien_battleship":
  {"grid_objects": [
    {"x": 0.0,"y": 13.0,"name": "warp","roles": "system,ENGINE,warp"},
    {"x": 0.0,"y": 14.0,"name": "warp","roles": "system,ENGINE,warp"},
@@ -973,7 +973,7 @@
    {"x": 2.0,"y": 14.0,"name": "astro-lab","roles": "room,lab,astro"},
    {"x": 13.0,"y": 14.0,"name": "astro-lab","roles": "room,lab,astro"}
   ]},
-"klg_neghvar":
+"kralien_dreadnought":
  {"grid_objects": [
    {"x": 3.0,"y": 12.0,"name": "aft-shield","roles": "system,shield,aft"},
    {"x": 4.0,"y": 12.0,"name": "aft-shield","roles": "system,shield,aft"},
@@ -1110,6 +1110,25 @@
  {"grid_objects": []},
 "torgoth_behemoth":
  {"grid_objects": []},
+"klingon_fighter":
+ {"grid_objects": [
+   {"x": 2.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
+   {"x": 7.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
+   {"x": 6.0,"y": 0.0,"name": "beam-fwd","scale": 1.0,"roles": "system,weapon,beam"},
+   {"x": 5.0,"y": 4.0,"name": "aft-shield","scale": 1.2136363983154297,"roles": "system,shield,aft"},
+   {"x": 4.0,"y": 3.0,"name": "sensors","scale": 1.0,"roles": "system,sensor"},
+   {"x": 1.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
+   {"x": 8.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
+   {"x": 1.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
+   {"x": 2.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
+   {"x": 7.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
+   {"x": 8.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
+   {"x": 3.0,"y": 0.0,"name": "beam-fwd","scale": 1.0,"roles": "system,weapon,beam"},
+   {"x": 4.0,"y": 4.0,"name": "aft-shield","scale": 1.2136363983154297,"roles": "system,shield,aft"},
+   {"x": 2.0,"y": 1.0,"name": "fwd-shield","scale": 1.2136363983154297,"roles": "system,shield,fwd"},
+   {"x": 7.0,"y": 1.0,"name": "fwd-shield","scale": 1.2136363983154297,"roles": "system,shield,fwd"},
+   {"x": 5.0,"y": 3.0,"name": "COMPUTER","scale": 1.2136363983154297,"roles": "room,Computer"}
+  ]},
 "arvonian_fighter":
  {"grid_objects": [
    {"x": 2.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
@@ -1818,12 +1837,6 @@
 "skaraan_executer":
  {"grid_objects": []},
 "skaraan_enforcer":
- {"grid_objects": []},
-"kralien_cruiser":
- {"grid_objects": []},
-"kralien_battleship":
- {"grid_objects": []},
-"kralien_dreadnought":
  {"grid_objects": []},
 "pirate_fighter":
  {"grid_objects": []},
