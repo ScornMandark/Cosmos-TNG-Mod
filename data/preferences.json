@@ -206,84 +206,84 @@
   "fonts": [
     {
       "tag": "smallest",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "TNG_LCARS",
       "size": 18
     },
     {
       "tag": "gui-1",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "TNG_LCARS",
       "size": 22
     },
     {
       "tag": "gui-2",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "TNG_LCARS",
       "size": 24
     },
     {
       "tag": "gui-2A",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "TNG_LCARS",
       "size": 28
     },
     {
       "tag": "gui-3",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 28
     },
     {
       "tag": "gui-4",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 32
     },
     {
       "tag": "gui-5",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 36
     },
     {
       "tag": "gui-6",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 52
     }
   ],
   "large_fonts": [
     {
       "tag": "smallest",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 20
     },
     {
       "tag": "gui-1",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 24
     },
     {
       "tag": "gui-2",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 28
     },
     {
       "tag": "gui-2A",
-      "filename": "GoldmanSansCd_Rg",
+      "filename": "TNG_LCARS",
       "size": 32
     },
     {
       "tag": "gui-3",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 32
     },
     {
       "tag": "gui-4",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 48
     },
     {
       "tag": "gui-5",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 32
     },
     {
       "tag": "gui-6",
-      "filename": "Goldman-Bold",
+      "filename": "TNG_Montalban",
       "size": 48
     }
   ],
@@ -371,7 +371,6 @@
   ]
 
 }
-
 
 
 
