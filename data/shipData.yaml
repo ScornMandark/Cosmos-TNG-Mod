@@ -568,6 +568,144 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      "key": "fed_excelsiorrefit",
+      "name": "Excelsior Refit Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_ExcelsiorRefit",
+      "meshscale": 0.4,
+      "radarscale": 1.0,
+      "exclusionradius": 100.0,
+      "meshrotate": 0,
+      "long_desc": "Excelsior Class Battleship (Refit)^Captain Grade^A major refit to an already capable warship^8 beams, 4 Torpedo tubes.",
+      "tubecount": 4,
+      "torpedostart": [
+        {
+          "Homing": 24
+        },
+        {
+          "Nuke": 3
+        },
+        {
+          "EMP": 4
+        },
+        {
+          "Mine": 6
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 15,
+      "internalmaph": 17,
+      "internalsymmetry": 1,
+      "turn_rate": 1.0,
+      "speed_coeff": 1.1,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1.0,
+      "warp_energy_cost": 1.0,
+      "jump_energy_cost": 1.25,
+      "roles": "ship,warship,defender,heavy,exploration",
+      "shields": [
+        130,
+        130
+      ],
+      "hullpoints": 5,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ 0.0, 30.629, 152.645 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ -27.097, 30.421, 140.022 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [ 27.097, 30.421, 140.022 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [ -35.116, 30.420, 111.336 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [ 35.116, 30.420, 111.336 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ -3.939, -39.522, 2.834 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 180,
+            "barrel_angle": 270
+          },
+          {
+            "position": [ 3.939, -39.522, 2.834 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 180,
+            "barrel_angle": 90
+          },
+          {
+            "position": [ -18.839, -6.779, -150.142 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 210
+          },
+          {
+            "position": [ 18.839, -6.779, -150.142 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 150
+          }
+        ]
+      }
+    },
+    {
+      #---------------------------------- ship data --------------------------------
       "key": "fed_ambassador",
       "name": "Ambassador Class",
       "origin": "Terran",
