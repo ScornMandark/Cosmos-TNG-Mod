@@ -1135,7 +1135,7 @@
             "cycle_time": 7.5,
             "damage_coeff": 3.2,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 345
           },
           {
@@ -1145,7 +1145,7 @@
             "cycle_time": 7.5,
             "damage_coeff": 3.2,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 15
           },
           {
@@ -1214,8 +1214,8 @@
             "arccolor": "#090",
             "cycle_time": 6,
             "damage_coeff": 1.8,
-            "range": 1400,
-            "arcwidth": 100,
+            "range": 1000,
+            "arcwidth": 120,
             "barrel_angle": 300
           },
           {
@@ -1469,7 +1469,7 @@
       "side": "Kralien",
       "artfileroot": "KLG_BRel",
       "meshscale": 0.1,
-      "radarscale": 0.25,
+      "radarscale": 0.75,
       "exclusionradius": 50.0,
       "meshrotate": 0,
       "shields": [
