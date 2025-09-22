@@ -18,21 +18,30 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
 * Audio SFX and BGM are updated
 * Fonts updated
 * 6 Starfleet ship classes available:
-* * California
-  * Excelsior Refit
-  * Ambassador
-  * Galaxy
-  * Akira
-  * Sovereign
+* * California class
+  * Excelsior Refit class
+  * Ambassador class
+  * Galaxy class
+  * Akira class
+  * Sovereign class
 * Currently more or less balanced to stock Cosmos ship shield and hull strengths.
 
 * Kraliens now populated by Klingons!
-* * B'Rel replaces Kralien Cruiser
-  * Vor'Cha replaces Kralien Battleship
-  * Negh'Var replaces Kralien Dreadnought
+* * B'Rel class replaces Kralien Cruiser
+  * Vor'Cha class replaces Kralien Battleship
+  * Negh'Var class replaces Kralien Dreadnought
   
 * Torgoth populated by Romulans!
-* D'Deridex replaces Leviathan
+* * T'Varo class replaces Destroyer
+  * Mogai class (Valdore) replaces Goliath
+  * D'Deridex class replaces Leviathan
+  * Scimitar class replaces Behemoth
+
+* Arvonians populated by Cardassians!
+* * Heideki class replaces Fighter
+  * Galor class replaces Destroyer
+  * Keldon class replaces Light Carrier
+  * Damar class replaces Carrier
 
 # Planned next steps
 * Increase number of TNG ships for players and enemies
