@@ -439,6 +439,7 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #----- Cali length 535m
       "key": "fed_california",
       "name": "California Class",
       "origin": "Terran",
@@ -446,7 +447,7 @@
       "artfileroot": "FED_California",
       "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 100.0,
+      "exclusionradius": 268.0,
       "meshrotate": 0,
       "long_desc": "California Class Advanced Support Ship^Commander Grade^A next-generation support ship design^8 beams, 2 Torpedo tubes.",
       "tubecount": 4,
@@ -568,6 +569,7 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Excelsior Refit 469m
       "key": "fed_excelsiorrefit",
       "name": "Excelsior Refit Class",
       "origin": "Terran",
@@ -575,7 +577,7 @@
       "artfileroot": "FED_ExcelsiorRefit",
       "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 100.0,
+      "exclusionradius": 235.0,
       "meshrotate": 0,
       "long_desc": "Excelsior Class Battleship (Refit)^Captain Grade^A major refit to an already capable warship^8 beams, 4 Torpedo tubes.",
       "tubecount": 4,
@@ -706,6 +708,7 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Ambassador 526m
       "key": "fed_ambassador",
       "name": "Ambassador Class",
       "origin": "Terran",
@@ -713,7 +716,7 @@
       "artfileroot": "FED_Ambassador",
       "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 100.0,
+      "exclusionradius": 263.0,
       "meshrotate": 0,
       "long_desc": "Ambassador Class Advanced Heavy Cruiser^Captain Grade^A next-generation heavy cruiser design^12 beams, 4 Torpedo tubes.",
       "tubecount": 4,
@@ -875,6 +878,7 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Galaxyh 642m 
       "key": "fed_galaxy",
       "name": "Galaxy Class",
       "origin": "Terran",
@@ -882,7 +886,7 @@
       "artfileroot": "FED_Galaxy",
       "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 130.0,
+      "exclusionradius": 321.0,
       "meshrotate": 0,
       "long_desc": "Galaxy Class Explorer^Captain Grade^A next-generation exploration cruiser design^16 beams, 4 Torpedo tubes.",
       "tubecount": 4,
@@ -1084,6 +1088,7 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Akira 440m
       "key": "fed_akira",
       "name": "Akira Class",
       "side": "TSN",
@@ -1091,7 +1096,7 @@
       "artfileroot": "FED_Akira",
       "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 80.0,
+      "exclusionradius": 220.0,
       "meshrotate": 0,
       "long_desc": "Akira Class Advanced Escort^Captain Grade^A next-generation heavy escort cruiser design^12 beams, 4 Torpedo tubes.",
       "tubecount": 4,
@@ -1253,6 +1258,7 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Sovereign 685m
       "key": "fed_sovereign",
       "name": "Sovereign Class",
       "origin": "Terran",
@@ -1260,7 +1266,7 @@
       "artfileroot": "FED_Sovereign",
       "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 130.0,
+      "exclusionradius": 344.0,
       "meshrotate": 0,
       "long_desc": "Sovereign Class Heavy Escort^Admiral Grade^A next-generation heavy escort cruiser design^16 beams, 6 Torpedo tubes.",
       "tubecount": 6,
@@ -1630,6 +1636,7 @@
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Vor'Cha 481m
     {
       "key": "kralien_battleship",
       "name": "Vor'Cha",
@@ -1819,6 +1826,7 @@
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Negh'Var 681m
     {
       "key": "kralien_dreadnought",
       "name": "Negh'Var",
@@ -2663,17 +2671,18 @@
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- D'Deridex 1353m, model 645.
     {
       "key": "torgoth_leviathan",
-      "name": "Leviathan",
+      "name": "D'Deridex",
       "origin": "Torgoth",
       "side": "Torgoth",
-      "artfileroot": "Torgoth_Leviathan",
-      "meshscale": 7.33825206756592,
-      "radarscale": 1.1,
-      "exclusionradius": 55.0,
+      "artfileroot": "RMN_DDeridex",
+      "meshscale": 0.839,
+      "radarscale": 1.0,
+      "exclusionradius": 645.0,
       "meshrotate": 0,
-      "long_desc": "Displacement: 90 kt. Armament: 4 medium beams, 1 heavy beam, 1 drone launcher.",
+      "long_desc": "Displacement: 29,079 kT. This massive ship is larger than Starfleet's Galaxy class.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -2694,7 +2703,7 @@
       "internalmaph": 20,
       "internalsymmetry": 1,
       "turn_rate": 0.6,
-      "speed_coeff": 1.2,
+      "speed_coeff": 1.0,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1,
       "warp_energy_cost": 1,
@@ -2709,108 +2718,104 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.0,
-              -0.45803028345108,
-              12.1159582138062
-            ],
-            "color": "red",
+            "position": [ 0.0, -28.531, 316.131 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 20,
-            "damage_coeff": 2,
-            "range": 3000,
-            "arcwidth": 12,
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
             "barrel_angle": 0
           },
           {
-            "position": [
-              1.32391893863678,
-              0.656463086605072,
-              9.91882228851318
-            ],
-            "color": "red",
+            "position": [ 0.0, -28.531, 316.131 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
+          },
+          {
+            "position": [ -30.501, 24.447, 225.861 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 315
+          },
+          {
+            "position": [ 30.501, 24.447, 225.861 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 45
+          },
+          {
+            "position": [ -20.102, 86.531, 27.112 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 8,
             "damage_coeff": 2,
             "range": 1200,
-            "arcwidth": 150
-            # "barrel_angle": 0
+            "arcwidth": 120,
+            "barrel_angle": 270
           },
           {
-            "position": [
-              -1.32391893863678,
-              0.656463086605072,
-              9.91882228851318
-            ],
-            "color": "red",
+            "position": [ 20.102, 86.531, 27.112 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 8,
             "damage_coeff": 2,
             "range": 1200,
-            "arcwidth": 144
-            # "barrel_angle": 60
+            "arcwidth": 120,
+            "barrel_angle": 90
           },
           {
-            "position": [
-              1.99560272693634,
-              1.55335700511932,
-              0.630249679088593
-            ],
-            "color": "red",
+            "position": [ -56.618, -55.719, -178.092 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 8,
             "damage_coeff": 2,
             "range": 1200,
-            "arcwidth": 144
-            # "barrel_angle": 300
+            "arcwidth": 120,
+            "barrel_angle": 240
           },
           {
-            "position": [
-              -1.99560272693634,
-              1.55335700511932,
-              0.630249679088593
-            ],
-            "color": "red",
+            "position": [ 56.618, -55.719, -178.092 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 8,
             "damage_coeff": 2,
             "range": 1200,
-            "arcwidth": 144
-            # "barrel_angle": 180
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -5.47635126113892,
-              -0.387564092874527,
-              -12.1444253921509
-            ],
-            "color": "orange"
+            "arcwidth": 120,
+            "barrel_angle": 120
           },
           {
-            "position": [
-              5.47635126113892,
-              -0.387564092874527,
-              -12.1444253921509
-            ],
-            "color": "orange"
+            "position": [ -13.415, 2.951, -302.864 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 210
           },
           {
-            "position": [
-              -4.13833904266357,
-              0.682676494121552,
-              -5.84925842285156
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              4.13833904266357,
-              0.682676494121552,
-              -5.84925842285156
-            ],
-            "color": "orange"
+            "position": [ 13.415, 2.951, -302.864 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 150
           }
         ]
       }
