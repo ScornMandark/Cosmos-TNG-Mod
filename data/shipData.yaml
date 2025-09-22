@@ -2821,17 +2821,18 @@
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Reman Scimitar 890m
     {
       "key": "torgoth_behemoth",
-      "name": "Behemoth",
+      "name": "Scimitar",
       "origin": "Torgoth",
       "side": "Torgoth",
-      "artfileroot": "Torgoth_Behemoth",
-      "meshscale": 8.34446334838867,
-      "radarscale": 1.2,
-      "exclusionradius": 50.0,
+      "artfileroot": "RMN_Scimitar",
+      "meshscale": 0.4,
+      "radarscale": 1.0,
+      "exclusionradius": 445.0,
       "meshrotate": 0,
-      "long_desc": "Displacement: 150 kt. Armament: 10 standard beams, 1 drone launcher",
+      "long_desc": "Displacement: 22,312 kT. This massive ship is smaller than the D'Deridex, but is a leap forward in power.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -2853,7 +2854,7 @@
       "internalmaph": 24,
       "internalsymmetry": 1,
       "turn_rate": 0.5,
-      "speed_coeff": 1.2,
+      "speed_coeff": 1.0,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1,
       "warp_energy_cost": 1,
@@ -2867,178 +2868,174 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              -3.06892991065979,
-              0.0,
-              12.8686723709106
-            ],
-            "color": "red",
+            "position": [ -8.250, 44.779, 344.519 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            # "barrel_angle": 18
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              -4.29089260101318,
-              0.0,
-              8.10301685333252
-            ],
-            "color": "red",
+            "position": [ 8.250, 44.779, 344.519 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            # "barrel_angle": 54
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              -3.32834672927856,
-              0.0,
-              1.11579239368439
-            ],
-            "color": "red",
+            "position": [ -8.250, 44.779, 344.519 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            #  "barrel_angle": 90
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              -2.51504015922546,
-              0.0,
-              -7.50605773925781
-            ],
-            "color": "red",
+            "position": [ 8.250, 44.779, 344.519 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            # "barrel_angle": 126
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              -1.88402664661407,
-              0.0,
-              -9.64849948883057
-            ],
-            "color": "red",
+            "position": [ -177.627, 202.754, 53.101 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            # "barrel_angle": 162
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 330
           },
           {
-            "position": [
-              3.06892991065979,
-              0.0,
-              12.8686723709106
-            ],
-            "color": "red",
+            "position": [ 177.627, 202.754, 53.101 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            # "barrel_angle": 342
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 30
           },
           {
-            "position": [
-              4.09958553314209,
-              0.0,
-              9.47421932220459
-            ],
-            "color": "red",
+            "position": [ -47.064, 128.231, 161.185 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144
-            # "barrel_angle": 306
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 345
           },
           {
-            "position": [
-              3.32834672927856,
-              0.0,
-              1.11579239368439
-            ],
-            "color": "red",
+            "position": [ 47.064, 128.231, 161.185 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144,
-            "barrel_angle": 270
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 15
           },
           {
-            "position": [
-              4.29089260101318,
-              0.0,
-              8.10301685333252
-            ],
-            "color": "red",
+            "position": [ -52.012, 49.165, 371.857 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144,
-            "barrel_angle": 234
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 345
           },
           {
-            "position": [
-              1.88402664661407,
-              0.0,
-              -9.64849948883057
-            ],
-            "color": "red",
+            "position": [ 52.012, 49.165, 371.857 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144,
-            "barrel_angle": 198
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              2.24660897254944,
-              0.756214737892151,
-              -9.86985492706299
-            ],
-            "color": "orange"
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 15
           },
           {
-            "position": [
-              1.83094108104706,
-              1.36819791793823,
-              -9.45919609069824
-            ],
-            "color": "orange"
+            "position": [ -68.274, 26.155, 379.182 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 330
           },
           {
-            "position": [
-              -2.24660897254944,
-              0.756214737892151,
-              -9.86985492706299
-            ],
-            "color": "orange"
+            "position": [ 68.274, 26.155, 379.182 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 30
           },
           {
-            "position": [
-              -1.83094108104706,
-              1.36819791793823,
-              -9.45919609069824
-            ],
-            "color": "orange"
+            "position": [ -163.081, -3.703, 131.438 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ 163.081, -3.703, 131.438 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 60
+          },
+          {
+            "position": [ 0.00, 209.788, -155.863 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ -239.448, 74.135, -307.432 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 240
+          },
+          {
+            "position": [ 239.448, 74.135, -307.432 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 120
           }
         ]
       }
