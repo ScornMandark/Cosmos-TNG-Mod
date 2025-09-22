@@ -971,7 +971,7 @@
             "damage_coeff": 1.6,
             "range": 1200,
             "arcwidth": 120,
-            "barrel_angle": 215
+            "barrel_angle": 225
           },
           {
             "position": [ 120.178, 42.211, 86.712 ],
@@ -2379,22 +2379,23 @@
 
     },
     #---------------------------------- ship data --------------------------------
+    #--- T'Varo est 130m.  Model 520
     {
       "key": "torgoth_destroyer",
-      "name": "Barbarian",
+      "name": "T'Varo",
       "origin": "Torgoth",
       "side": "Torgoth",
-      "artfileroot": "Torgoth_Destroyer",
-      "meshscale": 0.463068902492523,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0,
+      "artfileroot": "RMN_TVaro",
+      "meshscale": 0.1,
+      "radarscale": 0.75,
+      "exclusionradius": 130.0,
       "meshrotate": 0,
       "shields": [
         250,
         250
       ],
       "hullpoints": 3,
-      "long_desc": "Displacement: 50 kt. Armament: 3 medium beams, 1 drone launcher.",
+      "long_desc": "Displacement: 182.4 kT. Fast, comes in swarms, and has a huge plasma complement.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -2425,93 +2426,68 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              -0.247999995946884,
-              5.43800020217896,
-              135.546005249023
-            ],
-            "color": "red",
+            "position": [ -182.766, 14.485, 87.381 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 160,
-            "barrel_angle": 0
+            "arcwidth": 120,
+            "barrel_angle": 315
           },
           {
-            "position": [
-              34.382999420166,
-              3.86299991607666,
-              119.067001342773
-            ],
-            "color": "red",
+            "position": [ 182.766, 14.485, 87.381 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 160,
+            "arcwidth": 120,
             "barrel_angle": 45
           },
           {
-            "position": [
-              -34.382999420166,
-              3.86299991607666,
-              119.067001342773
-            ],
-            "color": "red",
+            "position": [ -9.297, -14.844, 140.958 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 60,
+            "barrel_angle": 355
+          },
+          {
+            "position": [ 9.297, -14.844, 140.958 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 60,
+            "barrel_angle": 5
+          },
+          {
+            "position": [ 0.0, -19.957, -176.853 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
-            "arcwidth": 160,
-            "barrel_angle": 315
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -35.8050003051758,
-              3.59599995613098,
-              -101.629997253418
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              35.8050003051758,
-              3.59599995613098,
-              -101.629997253418
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              -10.9549999237061,
-              -8.41600036621094,
-              -101.745002746582
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              10.9549999237061,
-              -8.41600036621094,
-              -101.745002746582
-            ],
-            "color": "orange"
+            "arcwidth": 120,
+            "barrel_angle": 180
           }
         ]
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Valdore 604m
     {
       "key": "torgoth_goliath",
-      "name": "Goliath",
+      "name": "Mogai",
       "origin": "Torgoth",
       "side": "Torgoth",
-      "artfileroot": "Torgoth_Goliath",
-      "meshscale": 6.5,
-      "radarscale": 1.1,
+      "artfileroot": "RMN_Mogai",
+      "meshscale": 0.4,
+      "radarscale": 1.0,
       "exclusionradius": 50.0,
       "meshrotate": 0,
       "shields": [
@@ -2519,7 +2495,7 @@
         350
       ],
       "hullpoints": 4,
-      "long_desc": "Displacement: 80 kt. Armament: 6 medium beams, 1 drone launcher.",
+      "long_desc": "Displacement: 5,380 kT. Smaller and sleeker than the D'Deridex, it is no less deadly.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -2550,122 +2526,134 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              -2.45073843002319,
-              0.0,
-              8.78181171417236
-            ],
-            "color": "red",
+            "position": [ -46.513, -41.950, -12.734 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 342
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              2.45073843002319,
-              0.0,
-              8.78181171417236
-            ],
-            "color": "red",
+            "position": [ 46.513, -41.950, -12.734 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 18
+            "cycle_time": 16,
+            "damage_coeff": 5,
+            "range": 2800,
+            "arcwidth": 15,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              -3.0634229183197,
-              0.0,
-              6.60882425308228
-            ],
-            "color": "red",
+            "position": [ 0.0, -40.651, 102.318 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 270
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              3.0634229183197,
-              0.0,
-              6.60882425308228
-            ],
-            "color": "red",
+            "position": [ -3.0, -40.651, 102.318 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 90
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 345
           },
           {
-            "position": [
-              -3.83948993682861,
-              0.0,
-              -6.8824896812439
-            ],
-            "color": "red",
+            "position": [ 3.0, -40.651, 102.318 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 198
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 15
           },
           {
-            "position": [
-              3.83948993682861,
-              0.0,
-              -6.8824896812439
-            ],
-            "color": "red",
+            "position": [ -428.350, -98.983, 127.406 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
-            "damage_coeff": 1,
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 345
+          },
+          {
+            "position": [ 428.350, -98.983, 127.406 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 15
+          },
+          {
+            "position": [ -433.581, -100.353, 127.406 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [ 433.581, -100.353, 127.406 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [ -47.419, -41.937, -25.433 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 225
+          },
+          {
+            "position": [ 47.419, -41.937, -25.433 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 135
+          },
+          {
+            "position": [ 0.0, 36.966, 5.134 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
             "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 162
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -3.68631863594055,
-              1.23558044433594,
-              -11.1682186126709
-            ],
-            "color": "orange"
+            "arcwidth": 120,
+            "barrel_angle": 0
           },
           {
-            "position": [
-              3.68631863594055,
-              1.23558044433594,
-              -11.1682186126709
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              -4.61045122146606,
-              -0.458492249250412,
-              -11.1682186126709
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              4.61045122146606,
-              -0.458492249250412,
-              -11.1682186126709
-            ],
-            "color": "orange"
+            "position": [ 0.0, 36.471, -108.495 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 8,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
           }
         ]
       }
