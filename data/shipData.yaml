@@ -757,20 +757,20 @@
             "position": [ -28.301, 47.441, 209.940 ],
             "color": "red",
             "arccolor": "#090",
-            "cycle_time": 7.5,
+            "cycle_time": 6,
             "damage_coeff": 3.2,
-            "range": 1400,
-            "arcwidth": 90,
+            "range": 1000,
+            "arcwidth": 120,
             "barrel_angle": 340
           },
           {
             "position": [ 28.301, 47.441, 209.940 ],
             "color": "red",
             "arccolor": "#090",
-            "cycle_time": 7.5,
+            "cycle_time": 6,
             "damage_coeff": 3.2,
-            "range": 1400,
-            "arcwidth": 90,
+            "range": 1000,
+            "arcwidth": 120,
             "barrel_angle": 20
           },
           {
@@ -837,40 +837,40 @@
             "position": [ -40.906, 47.233, -10.259 ],
             "color": "red",
             "arccolor": "#090",
-            "cycle_time": 6,
-            "damage_coeff": 1.8,
-            "range": 1000,
-            "arcwidth": 120,
-            "barrel_angle": 210
+            "cycle_time": 7.5,
+            "damage_coeff": 3.2,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 200
           },
           {
-            "position": [ -40.906, 47.233, -10.259 ],
-            "color": "red",
-            "arccolor": "#090",
-            "cycle_time": 6,
-            "damage_coeff": 1.8,
-            "range": 1000,
-            "arcwidth": 120,
-            "barrel_angle": 150
-          },
-          {
-            "position": [ -108.239, -19.249, -160.029 ],
+            "position": [ 40.906, 47.233, -10.259 ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 7.5,
             "damage_coeff": 3.2,
             "range": 1400,
             "arcwidth": 90,
+            "barrel_angle": 160
+          },
+          {
+            "position": [ -108.239, -19.249, -160.029 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 3.2,
+            "range": 1000,
+            "arcwidth": 120,
             "barrel_angle": 210
           },
           {
             "position": [ 108.239, -19.249, -160.029 ],
             "color": "red",
             "arccolor": "#090",
-            "cycle_time": 7.5,
+            "cycle_time": 6,
             "damage_coeff": 3.2,
-            "range": 1400,
-            "arcwidth": 90,
+            "range": 1000,
+            "arcwidth": 120,
             "barrel_angle": 150
           }
         ]
