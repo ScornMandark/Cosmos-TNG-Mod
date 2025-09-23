@@ -1,12 +1,12 @@
 # Cosmos-TNG-Mod
 TNG mod for Artemis Cosmos 1.2.0
-Latest update: 22 September, 2025
+Latest update: 23 September, 2025
 
 # Installation Instructions:
 * Download repository
 * Backup any custom preferences, gridData, or shipData files
 * Unzip repository into main Cosmos-1-2-0 folder
-* * Mod will unpack graphic and audio files into appropriate folders and subfolders
+  * Mod will unpack graphic and audio files into appropriate folders and subfolders
   * Mod will overwrite preferences.json, gridData.json, and shipData.yaml.
   * It includes a backup of the stock files.
 * Run Cosmos as usual!
@@ -18,7 +18,7 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
 * Audio SFX and BGM are updated
 * Fonts updated
 * 6 Starfleet ship classes available:
-* * California class
+  * California class
   * Excelsior Refit class
   * Ambassador class
   * Galaxy class
@@ -26,32 +26,38 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   * Sovereign class
 * Currently more or less balanced to stock Cosmos ship shield and hull strengths.
 
+
 * USFP populated by Federation assets!
-* * DS9 replaces Industrial Starbase
+  * DS9 replaces Industrial Starbase
+
 
 * Kraliens now populated by Kazon!
-* * Raider class replaces Cruiser
+  * Raider class replaces Cruiser
   * Cruiser class replaces Battleship
   * Carrier class replaces Dreadnought
 
+
 * Ximni partially populated by Klingons!
-* * B'Rel class replaces Corsair
+  * B'Rel class replaces Corsair
   * K'Tinga class replaces Destroyer
   * Vor'Cha class replaces Battleship
   * Negh'Var class replaces Dreadnought
-  
+ 
+
 * Torgoth populated by Romulans!
-* * T'Varo class replaces Destroyer
+  * T'Varo class replaces Destroyer
   * Mogai class (Valdore) replaces Goliath
   * D'Deridex class replaces Leviathan
   * Scimitar class replaces Behemoth
 
+
 * Arvonians populated by Cardassians!
-* * Heideki class replaces Fighter
+  * Heideki class replaces Fighter
   * Galor class replaces Destroyer
   * Keldon class replaces Light Carrier
   * Damar class replaces Carrier
   * Terok Nor replaces Station
+
 
 # Planned next steps
 * Increase number of TNG ships for players and enemies
