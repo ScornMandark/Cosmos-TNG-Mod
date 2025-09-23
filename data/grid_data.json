@@ -1238,25 +1238,8 @@
  {"grid_objects": []},
 "torgoth_behemoth":
  {"grid_objects": []},
-"klingon_fighter":
- {"grid_objects": [
-   {"x": 2.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
-   {"x": 7.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
-   {"x": 6.0,"y": 0.0,"name": "beam-fwd","scale": 1.0,"roles": "system,weapon,beam"},
-   {"x": 5.0,"y": 4.0,"name": "aft-shield","scale": 1.2136363983154297,"roles": "system,shield,aft"},
-   {"x": 4.0,"y": 3.0,"name": "sensors","scale": 1.0,"roles": "system,sensor"},
-   {"x": 1.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
-   {"x": 8.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},
-   {"x": 1.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
-   {"x": 2.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
-   {"x": 7.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
-   {"x": 8.0,"y": 3.0,"name": "maneuvering","scale": 1.0,"roles": "system,ENGINE,maneuver"},
-   {"x": 3.0,"y": 0.0,"name": "beam-fwd","scale": 1.0,"roles": "system,weapon,beam"},
-   {"x": 4.0,"y": 4.0,"name": "aft-shield","scale": 1.2136363983154297,"roles": "system,shield,aft"},
-   {"x": 2.0,"y": 1.0,"name": "fwd-shield","scale": 1.2136363983154297,"roles": "system,shield,fwd"},
-   {"x": 7.0,"y": 1.0,"name": "fwd-shield","scale": 1.2136363983154297,"roles": "system,shield,fwd"},
-   {"x": 5.0,"y": 3.0,"name": "COMPUTER","scale": 1.2136363983154297,"roles": "room,Computer"}
-  ]},
+"kazon_fighter":
+ {"grid_objects": []},
 "arvonian_fighter":
  {"grid_objects": [
    {"x": 2.0,"y": 4.0,"name": "Impulse","scale": 1.0,"roles": "system,ENGINE,impulse"},

@@ -29,10 +29,16 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
 * USFP populated by Federation assets!
 * * DS9 replaces Industrial Starbase
 
-* Kraliens now populated by Klingons!
-* * B'Rel class replaces Kralien Cruiser
-  * Vor'Cha class replaces Kralien Battleship
-  * Negh'Var class replaces Kralien Dreadnought
+* Kraliens now populated by Kazon!
+* * Raider class replaces Cruiser
+  * Cruiser class replaces Battleship
+  * Carrier class replaces Dreadnought
+
+* Ximni partially populated by Klingons!
+* * B'Rel class replaces Corsair
+  * K'Tinga class replaces Destroyer
+  * Vor'Cha class replaces Battleship
+  * Negh'Var class replaces Dreadnought
   
 * Torgoth populated by Romulans!
 * * T'Varo class replaces Destroyer
