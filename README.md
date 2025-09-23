@@ -26,6 +26,9 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   * Sovereign class
 * Currently more or less balanced to stock Cosmos ship shield and hull strengths.
 
+* USFP populated by Federation assets!
+* * DS9 replaces Industrial Starbase
+
 * Kraliens now populated by Klingons!
 * * B'Rel class replaces Kralien Cruiser
   * Vor'Cha class replaces Kralien Battleship
@@ -42,6 +45,7 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   * Galor class replaces Destroyer
   * Keldon class replaces Light Carrier
   * Damar class replaces Carrier
+  * Terok Nor replaces Station
 
 # Planned next steps
 * Increase number of TNG ships for players and enemies

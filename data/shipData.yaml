@@ -97,22 +97,86 @@
     {
       #---------------------------------- Starbase data --------------------------------
       "key": "starbase_industry",
-      "name": "Industrial Starbase",
+      "name": "Deep Space 9",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "industry_station",
-      "meshscale": 10.0,
-      "radarscale": 1.0,
+      "artfileroot": "CRD_Terok_Nor",
+      "meshscale": 0.4,
+      "radarscale": 0.5,
       "internalmapscale": 1.0,
-      "internalmapw": 31,
-      "internalmaph": 31,
+      "internalmapw": 30,
+      "internalmaph": 30,
       "internalsymmetry": 1,
-      "exclusionradius": 120.0,
+      "exclusionradius": 550.0,
       "shields": [
-        300
+        800
       ],
-      "hullpoints": 200,
-      "roles": "station"
+      "hullpoints": 100,
+      "roles": "station",
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [ -208.702, 106.360, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ 208.702, 106.360, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 60
+          },
+          {
+            "position": [ 0.0, 107.010, -241.366 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ 0.0, -32.865, -241.366 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ -208.702, -32.865, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ 208.702, -32.865, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 60
+          }
+        ]
+      }
     },
     {
       #---------------------------------- Starbase data --------------------------------
@@ -137,19 +201,19 @@
     {
       #---------------------------------- Starbase data --------------------------------
       "key": "starbase_arvonian",
-      "name": "Arvonian Base",
+      "name": "Terok Nor",
       "origin": "Arvonian",
       "side": "Arvonian",
-      "artfileroot": "arvonian_station",
-      "meshscale": 10.0,
-      "radarscale": 1.0,
+      "artfileroot": "CRD_Terok_Nor",
+      "meshscale": 0.4,
+      "radarscale": 0.5,
       "internalmapscale": 1.0,
       "internalmapw": 30,
       "internalmaph": 30,
       "internalsymmetry": 1,
-      "exclusionradius": 120.0,
+      "exclusionradius": 550.0,
       "shields": [
-        400
+        800
       ],
       "hullpoints": 100,
       "roles": "station,carrier",
@@ -157,18 +221,64 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.057,
-              3.153,
-              1.888
-            ],
-            "color": "red",
+            "position": [ -208.702, 106.360, 121.0 ],
+            "color": "orange",
             "arccolor": "#090",
             "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 360,
-            "barrel_angle": 0
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ 208.702, 106.360, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 60
+          },
+          {
+            "position": [ 0.0, 107.010, -241.366 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ 0.0, -32.865, -241.366 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 180
+          },
+          {
+            "position": [ -208.702, -32.865, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ 208.702, -32.865, 121.0 ],
+            "color": "orange",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 60
           }
         ]
       }
