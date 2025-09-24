@@ -4170,17 +4170,18 @@
       ]
     },
     #---------------------------------- ship data --------------------------------
+    #--- Jem Hadar Attack Ship ~95m, scaled up 4x in blender
     {
       "key": "skaraan_defiler",
-      "name": "Defiler",
+      "name": "Attack Ship",
       "origin": "Skaraan",
       "side": "Skaraan",
-      "artfileroot": "skaraan_defiler",
-      "meshscale": 0.0900000035762787,
-      "radarscale": 1.0,
+      "artfileroot": "JEM_Attack_Ship",
+      "meshscale": 0.1,
+      "radarscale": .75,
       "exclusionradius": 50.0,
       "meshrotate": 0,
-      "long_desc": "Displacement: 40 kt. Armament: 2 medium beams. The Skaraan's lightest ship of commerce and war.",
+      "long_desc": "Displacement: 30.7 kT. These Jem'Hadar fighters form the backbone of the Dominion fleet, also serving as patrol ships and scouts.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -4200,7 +4201,7 @@
       "internalmapw": 17,
       "internalmaph": 17,
       "internalsymmetry": 1,
-      "turn_rate": 0.9,
+      "turn_rate": 1,
       "speed_coeff": 1.1,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1,
@@ -4215,12 +4216,8 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              37.9396743774414,
-              -15.8503198623657,
-              274.560089111328
-            ],
-            "color": "red",
+            "position": [ 6.046, -28.463, 170.487 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 3,
@@ -4229,12 +4226,8 @@
             "barrel_angle": 40
           },
           {
-            "position": [
-              -37.9396743774414,
-              -15.8503198623657,
-              274.560089111328
-            ],
-            "color": "red",
+            "position": [ -6.046, -28.463, 170.487 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 3,
@@ -4242,47 +4235,22 @@
             "arcwidth": 108,
             "barrel_angle": 320
           }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -113.822891235352,
-              -18.32741355896,
-              -221.858169555664
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              113.822891235352,
-              -18.32741355896,
-              -221.858169555664
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              0.0,
-              -17.362813949585,
-              -197.7431640625
-            ],
-            "color": "orange"
-          }
         ]
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Chel Grett ~335m
     {
-      "key": "skaraan_executor",
-      "name": "Executor",
+      "key": "skaraan_enforcer",
+      "name": "Chel Grett",
       "origin": "Skaraan",
       "side": "Skaraan",
-      "artfileroot": "skaraan_executor",
-      "meshscale": 0.128355428576469,
+      "artfileroot": "BRN_Chel_Grett",
+      "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 50.0,
+      "exclusionradius": 175.0,
       "meshrotate": 0,
-      "long_desc": "Displacement: 70 kt. Armament: 2 super-heavy beams, 1 medium beam. Very dangerous.",
+      "long_desc": "Displacement: 1,284 kT.  These Breen warships made an unwelcome addition to the Dominion forces in 2375.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -4301,7 +4269,7 @@
       "internalmapscale": 1.0,
       "internalmapw": 19,
       "internalmaph": 19,
-      "internalsymmetry": 1,
+      "internalsymmetry": 0,
       "turn_rate": 1,
       "speed_coeff": 1,
       "scan_strength_coeff": 1,
@@ -4310,103 +4278,78 @@
       "jump_energy_cost": 1,
       "roles": "ship,warship,heavy,loner",
       "shields": [
-        350,
-        300
+        300,
+        150
       ],
-      "hullpoints": 8,
+      "hullpoints": 6,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              97.6620864868164,
-              37.1115951538086,
-              309.319274902344
-            ],
-            "color": "red",
+            "position": [ 64.084, -4.485, 117.015 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
-            "damage_coeff": 3,
-            "range": 2000,
-            "arcwidth": 72,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 108,
             "barrel_angle": 20
           },
           {
-            "position": [
-              -97.6620864868164,
-              37.1115951538086,
-              309.319274902344
-            ],
-            "color": "red",
+            "position": [ -63.172, -6.228, 116.923 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
-            "damage_coeff": 3,
-            "range": 2000,
-            "arcwidth": 72,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 108,
             "barrel_angle": 340
           },
           {
-            "position": [
-              0.0,
-              70.1956024169922,
-              -118.106666564941
-            ],
-            "color": "red",
+            "position": [ 3.712, 5.424, 191.687 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 108,
+            "barrel_angle": 350
+          },
+          {
+            "position": [ 9.307, -16.406, 110.970 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 108,
+            "barrel_angle": 10
+          },
+          {
+            "position": [ 3.293, -5.002, -50.534 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 4,
             "damage_coeff": 1,
-            "range": 1400,
+            "range": 1200,
             "arcwidth": 180,
             "barrel_angle": 180
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -142.586654663086,
-              19.5324172973633,
-              -250.991577148438
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              -142.586654663086,
-              -9.76620864868164,
-              -250.991577148438
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              142.586654663086,
-              19.5324172973633,
-              -250.991577148438
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              142.586654663086,
-              -9.76620864868164,
-              -250.991577148438
-            ],
-            "color": "orange"
           }
         ]
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Jem Hadar Battlecruiser ~650m
     {
-      "key": "skaraan_enforcer",
-      "name": "Enforcer",
+      "key": "skaraan_executor",
+      "name": "Battlecruiser",
       "origin": "Skaraan",
       "side": "Skaraan",
-      "artfileroot": "skaraan_enforcer",
-      "meshscale": 0.14738255739212,
+      "artfileroot": "JEM_Battlecruiser",
+      "meshscale": 0.4,
       "radarscale": 1.0,
-      "exclusionradius": 50.0,
+      "exclusionradius": 325.0,
       "meshrotate": 0,
-      "long_desc": "Displacement: 50 kt. Armament: 4 standard beams. Medium Skaraan ship of commerce and war.",
+      "long_desc": "Displacement: 5,344 kT. Large and dangerous, these cruisers are even more dangerous in groups.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -4434,101 +4377,81 @@
       "jump_energy_cost": 1,
       "roles": "ship,warship,heavy,loner",
       "shields": [
-        300,
-        150
+        350,
+        300
       ],
-      "hullpoints": 6,
+      "hullpoints": 8,
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              39.2598724365234,
-              0.0,
-              217.586898803711
-            ],
-            "color": "red",
+            "position": [ 12.829, 19.366, 72.976 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 108,
+            "damage_coeff": 3,
+            "range": 2000,
+            "arcwidth": 60,
             "barrel_angle": 20
           },
           {
-            "position": [
-              -39.2598724365234,
-              0.0,
-              217.586898803711
-            ],
-            "color": "red",
+            "position": [ -12.829, 19.366, 72.976 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1200,
-            "arcwidth": 108,
+            "damage_coeff": 3,
+            "range": 2000,
+            "arcwidth": 60,
             "barrel_angle": 340
           },
           {
-            "position": [
-              22.5119361877441,
-              -35.6124877929688,
-              -112.150894165039
-            ],
-            "color": "red",
+            "position": [ 0.0, -67.790, -64.785 ],
+            "color": "purple",
             "arccolor": "#500",
-            "cycle_time": 6,
+            "cycle_time": 4,
             "damage_coeff": 1,
             "range": 1200,
-            "arcwidth": 144,
-            "barrel_angle": 150
+            "arcwidth": 180,
+            "barrel_angle": 180
           },
           {
-            "position": [
-              -22.5119361877441,
-              -35.6124877929688,
-              -112.150894165039
-            ],
-            "color": "red",
+            "position": [ -12.741, -47.677, 198.977 ],
+            "color": "purple",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1200,
-            "arcwidth": 144,
+            "arcwidth": 120,
+            "barrel_angle": 300
+          },
+          {
+            "position": [ 12.741, -47.677, 198.977 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 60
+          },
+          {
+            "position": [ -12.741, 46.559, -190.932 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1400,
+            "arcwidth": 60,
             "barrel_angle": 210
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -95.4049377441406,
-              8.28743267059326,
-              -82.9946823120117
-            ],
-            "color": "orange"
           },
           {
-            "position": [
-              -21.2387847900391,
-              7.26791572570801,
-              -209.689376831055
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              95.4049377441406,
-              8.28743267059326,
-              -82.9946823120117
-            ],
-            "color": "orange"
-          },
-          {
-            "position": [
-              21.2387847900391,
-              7.26791572570801,
-              -209.689376831055
-            ],
-            "color": "orange"
+            "position": [ 12.741, 46.559, -190.932 ],
+            "color": "purple",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1400,
+            "arcwidth": 60,
+            "barrel_angle": 150
           }
         ]
       }

@@ -59,6 +59,12 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   * Terok Nor replaces Station
 
 
+* Skaarans now populated by Dominion Forces!
+  * Jem Hadar Attack Ship replaces Defiler
+  * Breen Chel Grett Warship replaces Enforcer
+  * Jem Hadar Battlecruiser replaces Executor
+
+
 # Planned next steps
 * Increase number of TNG ships for players and enemies
 * Possibly rebalance as per original TNG mod
