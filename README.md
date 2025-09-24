@@ -1,6 +1,6 @@
 # Cosmos-TNG-Mod
 TNG mod for Artemis Cosmos 1.2.0
-Latest update: 24September, 2025
+Latest update: 24September, 2025  
 
 # Installation Instructions:
 * Download repository
@@ -9,10 +9,10 @@ Latest update: 24September, 2025
   * Mod will unpack graphic and audio files into appropriate folders and subfolders
   * Mod will overwrite preferences.json, gridData.json, and shipData.yaml.
   * It includes a backup of the stock files.
-* Run Cosmos as usual!
+* Run Cosmos as usual!  
 
 # Current mod status
-NOTE: due to the way Cosmos mission scripts are created, currently all races and ship types hard coded into the scripts themselves.  I'll eventually create a TNG mission suite that breaks away from this, but for now we need to directly replace the ship types called in the scripts.
+NOTE: due to the way Cosmos mission scripts are created, currently all races and ship types hard coded into the scripts themselves.  I'll eventually create a TNG mission suite that breaks away from this, but for now we need to directly replace the ship types called in the scripts.  
 
 * Audio SFX and BGM are updated
 * Fonts updated
@@ -23,38 +23,38 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   - Galaxy class
   - Akira class
   - Sovereign class
-* Currently more or less balanced to stock Cosmos ship shield and hull strengths.
+* Currently more or less balanced to stock Cosmos ship shield and hull strengths.  
 
 
 * USFP partially populated by Federation assets!
-  - DS9 replaces Industrial Starbase
+  - DS9 replaces Industrial Starbase  
 
 
 * Pirates populated by Orions!
   - Interceptor replaces Fighter
   - Corvette replaces Longbow
   - Brigand replaces Strongbow
-  - Corsair replaces Brigatine
+  - Corsair replaces Brigatine  
 
 
 * Ximni partially populated by Klingons!
   * B'Rel class replaces Corsair
   * K'Tinga class replaces Destroyer
   * Vor'Cha class replaces Battleship
-  * Negh'Var class replaces Dreadnought
+  * Negh'Var class replaces Dreadnought  
  
 
 * Kraliens populated by Kazon!
   * Raider class replaces Cruiser
   * Cruiser class replaces Battleship
-  * Carrier class replaces Dreadnought
+  * Carrier class replaces Dreadnought  
 
 
 * Torgoth populated by Romulans!
   * T'Varo class replaces Destroyer
   * Mogai class (Valdore) replaces Goliath
   * D'Deridex class replaces Leviathan
-  * Scimitar class replaces Behemoth
+  * Scimitar class replaces Behemoth  
 
 
 * Arvonians populated by Cardassians!
@@ -62,13 +62,13 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   * Galor class replaces Destroyer
   * Keldon class replaces Light Carrier
   * Damar class replaces Carrier
-  * Terok Nor replaces Station
+  * Terok Nor replaces Station  
 
 
 * Skaarans populated by Dominion Forces!
   * Jem Hadar Attack Ship replaces Defiler
   * Breen Chel Grett Warship replaces Enforcer
-  * Jem Hadar Battlecruiser replaces Executor
+  * Jem Hadar Battlecruiser replaces Executor  
 
 
 # Planned next steps
