@@ -4457,14 +4457,15 @@
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Orion Interceptor, 74.5m?  4x scale model
     {
       "key": "pirate_fighter",
-      "name": "Freebooter",
+      "name": "Interceptor",
       "origin": "Pirate",
       "side": "Pirate",
-      "artfileroot": "pirate_fighter",
-      "meshscale": 0.025000000372529,
-      "radarscale": 1.0,
+      "artfileroot": "ORN_Interceptor",
+      "meshscale": 0.1,
+      "radarscale": 0.75,
       "exclusionradius": 50.0,
       "meshrotate": 0,
       "shields": [
@@ -4472,7 +4473,7 @@
         25
       ],
       "hullpoints": 1,
-      "long_desc": "Fighter of the pirate fleet.",
+      "long_desc": "Orion Interceptor Fighter, 16 kT.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -4489,8 +4490,8 @@
         }
       ],
       "internalmapscale": 1.0,
-      "internalmapw": 7,
-      "internalmaph": 9,
+      "internalmapw": 9,
+      "internalmaph": 12,
       "internalsymmetry": 1,
       "turn_rate": 3,
       "speed_coeff": 3,
@@ -4502,12 +4503,8 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              43.1223220825195,
-              -5.88570880889893,
-              121.222198486328
-            ],
-            "color": "yellow",
+            "position": [ 0.0, -50.873, 86.845 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 5,
             "damage_coeff": 1,
@@ -4516,48 +4513,27 @@
             "barrel_angle": 0
           },
           {
-            "position": [
-              -43.1223220825195,
-              -5.88570880889893,
-              121.222198486328
-            ],
-            "color": "yellow",
+            "position": [ 0.0, -50.873, 86.845 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 5,
             "damage_coeff": 1,
             "range": 800,
             "arcwidth": 90,
             "barrel_angle": 0
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -37.209,
-              15.486,
-              -20.812
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              37.209,
-              15.486,
-              -20.812
-            ],
-            "color": "blue"
           }
         ]
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Orion Corvette Frigate, 261m
     {
       "key": "pirate_longbow",
-      "name": "Longbow",
+      "name": "Corvette Frigate",
       "origin": "Pirate",
       "side": "Pirate",
-      "artfileroot": "longbow",
-      "meshscale": 0.0656711384654045,
+      "artfileroot": "ORN_Corvette",
+      "meshscale": 0.4,
       "radarscale": 1.0,
       "exclusionradius": 50.0,
       "meshrotate": 0,
@@ -4566,7 +4542,7 @@
         80
       ],
       "hullpoints": 2,
-      "long_desc": "Scout class vessel^1 forward beams^1 Torpedo tube^Stores for 8 homing, 2 EMP, 1 Mine, 1 PShock.^Most common of the pirate fleet.",
+      "long_desc": "Orion Corvette Frigate, 1,345 kT^1 forward beams^1 Torpedo tube^Stores for 8 homing, 2 EMP, 1 Mine.^Most common of the pirate fleet.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -4584,8 +4560,8 @@
       ],
       #     "torpedostart": {"Homing": 8, "Nuke": 0, "EMP": 2, "Mine": 1 },
       "internalmapscale": 1.0,
-      "internalmapw": 15,
-      "internalmaph": 15,
+      "internalmapw": 14,
+      "internalmaph": 16,
       "internalsymmetry": 1,
       "turn_rate": 1.2,
       "speed_coeff": 1.2,
@@ -4597,64 +4573,27 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.0,
-              -25.0344066619873,
-              270.154418945312
-            ],
-            "color": "yellow",
+            "position": [ -33.162, -24.496, 74.140 ],
+            "color": "green",
             "arccolor": "#500",
-            "cycle_time": 6,
+            "cycle_time": 3,
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
             "barrel_angle": 0
           }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -50.2840347290039,
-              -26.6387996673584,
-              -233.061477661133
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              50.2840347290039,
-              -26.6387996673584,
-              -233.061477661133
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -50.2840347290039,
-              -60.6387996673584,
-              -233.061477661133
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              50.2840347290039,
-              -60.6387996673584,
-              -233.061477661133
-            ],
-            "color": "purple"
-          }
         ]
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Brigand Cruiser, ~618m?
     {
       "key": "pirate_strongbow",
-      "name": "Strongbow",
+      "name": "Brigand Cruiser",
       "origin": "Pirate",
       "side": "Pirate",
-      "artfileroot": "strongbow",
-      "meshscale": 0.0577181242406368,
+      "artfileroot": "ORN_Brigand",
+      "meshscale": 0.4,
       "radarscale": 1.0,
       "exclusionradius": 50.0,
       "meshrotate": 0,
@@ -4663,7 +4602,7 @@
         100
       ],
       "hullpoints": 4,
-      "long_desc": "Cruiser of the pirate fleet.^Pirate raider.^4 forward beams^2 Torpedo tubes^Stores for 12 homing, 12 EMP, 2 Mines,  8 PShock.",
+      "long_desc": "Orion Brigand Cruiser, 15,199 kT.^Pirate raider.^6 forward beams, 2 rear beams^2 Torpedo tubes^Stores for 12 homing, 12 EMP, 2 Mines.",
       "tubecount": 2,
       "torpedostart": [
         {
@@ -4694,130 +4633,97 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              111.035270690918,
-              14.9025430679321,
-              382.432922363281
-            ],
-            "color": "yellow",
+            "position": [ 45.846, -10.222, 303.553 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144,
+            "range": 1200,
+            "arcwidth": 72,
             "barrel_angle": 12
           },
           {
-            "position": [
-              -111.035270690918,
-              14.9025430679321,
-              382.432922363281
-            ],
-            "color": "yellow",
+            "position": [ -45.846, -10.222, 303.553 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144,
+            "range": 1200,
+            "arcwidth": 72,
             "barrel_angle": 348
           },
           {
-            "position": [
-              248.329742431641,
-              14.6661500930786,
-              218.288269042969
-            ],
-            "color": "yellow",
+            "position": [ 49.371, -4.142, 295.692 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
-            "range": 1000,
-            "arcwidth": 144,
+            "range": 1200,
+            "arcwidth": 72,
+            "barrel_angle": 18
+          },
+          {
+            "position": [ -49.371, -4.142, 295.692 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 72,
+            "barrel_angle": 342
+          },
+          {
+            "position": [ 39.803, 5.686, 281.598 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 72,
             "barrel_angle": 24
           },
           {
-            "position": [
-              -248.329742431641,
-              14.6661500930786,
-              218.288269042969
-            ],
-            "color": "yellow",
+            "position": [ -39.803, 5.686, 281.598 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 72,
+            "barrel_angle": 336
+          },
+          {
+            "position": [ 133.137, -13.047, -158.267 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
-            "barrel_angle": 324
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -400.0,
-              -137.0,
-              -657.576599121094
-            ],
-            "color": "purple"
+            "barrel_angle": 168
           },
           {
-            "position": [
-              400.0,
-              -137.0,
-              -657.576599121094
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -101.598770141602,
-              20.3027496337891,
-              -657.576599121094
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              101.598770141602,
-              20.3027496337891,
-              -657.576599121094
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -235.820663452148,
-              -54.4784965515137,
-              -657.266052246094
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              235.820663452148,
-              -54.4784965515137,
-              -657.266052246094
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              0.0,
-              54.0,
-              -707.0
-            ],
-            "color": "purple"
+            "position": [ -133.137, -13.047, -158.267 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 192
           }
         ]
       }
     },
     #---------------------------------- ship data --------------------------------
+    #--- Orion Corsair Carrier, ~514m?
     {
       "key": "pirate_brigantine",
-      "name": "Brigantine",
+      "name": "Corsair Carrier",
       "origin": "Pirate",
       "side": "Pirate",
-      "artfileroot": "Brigantine",
-      "meshscale": 0.059763390570879,
+      "artfileroot": "ORN_Corsair",
+      "meshscale": 0.4,
       "radarscale": 1.0,
       "exclusionradius": 50.0,
       "meshrotate": 0,
@@ -4826,7 +4732,7 @@
         100
       ],
       "hullpoints": 5,
-      "long_desc": "Pirate corvette and light carrier.^2 forward beams, 1 rear beam^2 Torpedo tubes^Stores for 12 homing, 4 Mines, 12 EMP, 8 PShock.",
+      "long_desc": "Orion Corsair Carrier, 6,835 kT.^4 forward beams, 2 rear beams^2 Torpedo tubes^Stores for 12 homing, 4 Mines, 12 EMP.",
       "tubecount": 2,
       "torpedostart": [
         {
@@ -4845,8 +4751,8 @@
       #     "torpedostart": {"Homing": 12, "Nuke": 0, "EMP": 12, "Mine": 4 },
       "baycount": 6,
       "internalmapscale": 1.0,
-      "internalmapw": 12,
-      "internalmaph": 12,
+      "internalmapw": 15,
+      "internalmaph": 19,
       "internalsymmetry": 1,
       "turn_rate": 0.8,
       "speed_coeff": 1,
@@ -4858,12 +4764,28 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              27.2436256408691,
-              88.7021255493164,
-              82.4280090332031
-            ],
-            "color": "yellow",
+            "position": [ 20.974, -35.183, 262.867 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 72,
+            "barrel_angle": 12
+          },
+          {
+            "position": [ -20.974, -35.183, 262.867 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1200,
+            "arcwidth": 72,
+            "barrel_angle": 348
+          },
+          {
+            "position": [ 37.947, -37.367, 224.794 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
@@ -4872,12 +4794,8 @@
             "barrel_angle": 12
           },
           {
-            "position": [
-              -27.2436256408691,
-              88.7021255493164,
-              82.4280090332031
-            ],
-            "color": "yellow",
+            "position": [ -37.947, -37.367, 224.794 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
@@ -4886,84 +4804,24 @@
             "barrel_angle": 348
           },
           {
-            "position": [
-              0.0,
-              109.569381713867,
-              -629.429077148438
-            ],
-            "color": "yellow",
+            "position": [ -106.631, -24.352, -117.456 ],
+            "color": "green",
             "arccolor": "#500",
             "cycle_time": 6,
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
-            "barrel_angle": 180
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              -248.325,
-              -3.335,
-              -570.747
-            ],
-            "color": "purple"
+            "barrel_angle": 192
           },
           {
-            "position": [
-              248.325,
-              -3.335,
-              -570.747
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -190.0,
-              -3.335,
-              -570.747
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              190.0,
-              -3.335,
-              -570.747
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -99.4990005493164,
-              32.8330001831055,
-              -624.247985839844
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              99.4990005493164,
-              32.8330001831055,
-              -624.247985839844
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              0.0,
-              54.0,
-              -580.0
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              0.0,
-              -16.0,
-              -580.0
-            ],
-            "color": "purple"
+            "position": [ 106.631, -24.352, -117.456 ],
+            "color": "green",
+            "arccolor": "#500",
+            "cycle_time": 6,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 168
           }
         ]
       }
