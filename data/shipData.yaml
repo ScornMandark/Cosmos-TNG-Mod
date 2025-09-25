@@ -550,7 +550,7 @@
     {
       #---------------------------------- ship data --------------------------------
       #----- Cali length 535m
-      "key": "fed_california",
+      "key": "tsn_scout",
       "name": "California Class",
       "origin": "Terran",
       "side": "TSN",
@@ -680,7 +680,7 @@
     {
       #---------------------------------- ship data --------------------------------
       #--- Excelsior Refit 469m
-      "key": "fed_excelsiorrefit",
+      "key": "tsn_light_cruiser",
       "name": "Excelsior Refit Class",
       "origin": "Terran",
       "side": "TSN",
@@ -715,7 +715,7 @@
       "ship_energy_cost": 1.0,
       "warp_energy_cost": 1.0,
       "jump_energy_cost": 1.25,
-      "roles": "ship,warship,defender,heavy,exploration",
+      "roles": "ship,warship,defender,heavy,patrol,exploration",
       "shields": [
         130,
         130
@@ -819,7 +819,7 @@
     {
       #---------------------------------- ship data --------------------------------
       #--- Ambassador 526m
-      "key": "fed_ambassador",
+      "key": "tsn_battle_cruiser",
       "name": "Ambassador Class",
       "origin": "Terran",
       "side": "TSN",
@@ -855,7 +855,7 @@
       "ship_energy_cost": 1.0,
       "warp_energy_cost": 1.0,
       "jump_energy_cost": 1.25,
-      "roles": "ship,warship,defender,heavy,exploration,carrier",
+      "roles": "ship,warship,defender,heavy,patrol,carrier",
       "shields": [
         150,
         150
@@ -989,7 +989,7 @@
     {
       #---------------------------------- ship data --------------------------------
       #--- Galaxyh 642m 
-      "key": "fed_galaxy",
+      "key": "tsn_battleship",
       "name": "Galaxy Class",
       "origin": "Terran",
       "side": "TSN",
@@ -1199,7 +1199,7 @@
     {
       #---------------------------------- ship data --------------------------------
       #--- Akira 440m
-      "key": "fed_akira",
+      "key": "tsn_carrier",
       "name": "Akira Class",
       "side": "TSN",
       "origin": "Terran",
@@ -1235,7 +1235,7 @@
       "ship_energy_cost": 1.1,
       "warp_energy_cost": 1.1,
       "jump_energy_cost": 1.35,
-      "roles": "ship,warship,heavy,exploration,carrier",
+      "roles": "ship,warship,heavy,patrol,carrier",
       "shields": [
         180,
         180
@@ -1369,7 +1369,7 @@
     {
       #---------------------------------- ship data --------------------------------
       #--- Sovereign 685m
-      "key": "fed_sovereign",
+      "key": "tsn_dreadnought",
       "name": "Sovereign Class",
       "origin": "Terran",
       "side": "TSN",
@@ -1578,16 +1578,17 @@
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Danube ~23m, 10x model
       "key": "tsn_shuttle",
-      "name": "Shuttle",
+      "name": "Danube",
       "origin": "Terran",
       "side": "TSN",
-      "artfileroot": "TSNshuttle",
-      "meshscale": 0.0421140976250172,
-      "radarscale": 0.5,
+      "artfileroot": "FED_Danube",
+      "meshscale": 0.04,
+      "radarscale": 0.25,
       "exclusionradius": 25.0,
       "meshrotate": 0,
-      "long_desc": "TSN Shuttle^Standard shuttle of the TSN.^1 forward beam.",
+      "long_desc": "Danube class Runabout, 0.67 kT.^Standard shuttle for Starfleet bases and ships.^1 forward beam.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -1605,8 +1606,8 @@
       ],
       #     "torpedostart": {"Homing": 0, "Nuke": 0, "EMP": 0, "Mine": 0 },
       "internalmapscale": 1.0,
-      "internalmapw": 7,
-      "internalmaph": 6,
+      "internalmapw": 8,
+      "internalmaph": 9,
       "internalsymmetry": 1,
       "turn_rate": 3,
       "speed_coeff": 1.5,
@@ -1623,12 +1624,8 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.0,
-              -20.0,
-              5.0
-            ],
-            "color": "green",
+            "position": [ 0.0, -12.060, 59.110 ],
+            "color": "red",
             "arccolor": "#090",
             "cycle_time": 2,
             "damage_coeff": 0.5,
@@ -1636,39 +1633,22 @@
             "arcwidth": 144,
             "barrel_angle": 0
           }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              19.0,
-              -5.0,
-              -116.0
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -19.0,
-              -5.0,
-              -116.0
-            ],
-            "color": "blue"
-          }
         ]
       }
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- length est 25m, 10x scale model
       "key": "tsn_fighter",
-      "name": "Fighter",
+      "name": "Peregrine",
       "origin": "Terran",
       "side": "TSN",
-      "artfileroot": "TSNfighter",
-      "meshscale": 0.25,
-      "radarscale": 0.3,
+      "artfileroot": "FED_Peregrine",
+      "meshscale": 0.04,
+      "radarscale": 0.25,
       "exclusionradius": 25.0,
       "meshrotate": 0,
-      "long_desc": "TSN Fighter^Standard fighter of the TSN.^1 forward beam.  5 torpedos.",
+      "long_desc": "Peregrine Fighter, 0.76 kT.^Fast attack craft developed by Starfleet.^2 forward beams, 5 torpedos.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -1686,8 +1666,8 @@
       ],
       #      "torpedostart": {"Homing": 5, "Nuke": 0, "EMP": 0, "Mine": 0 },
       "internalmapscale": 1.0,
-      "internalmapw": 7,
-      "internalmaph": 6,
+      "internalmapw": 12,
+      "internalmaph": 9,
       "internalsymmetry": 1,
       "turn_rate": 4,
       "speed_coeff": 1.5,
@@ -1704,68 +1684,41 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.0,
-              -24.0,
-              5.0
-            ],
-            "color": "green",
+            "position": [ -4.152, -9.699, 72.756 ],
+            "color": "red",
             "arccolor": "#090",
             "cycle_time": 2,
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
-            "barrel_angle": 0
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              17.9619216918945,
-              1.0886013507843,
-              -80.8204040527344
-            ],
-            "color": "blue"
+            "barrel_angle": 355
           },
           {
-            "position": [
-              17.566068649292,
-              -11.0839405059814,
-              -80.6389694213867
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -17.9619216918945,
-              1.0886013507843,
-              -80.8204040527344
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -17.566068649292,
-              -11.0839405059814,
-              -80.6389694213867
-            ],
-            "color": "blue"
+            "position": [ 4.152, -9.699, 72.756 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 2,
+            "damage_coeff": 1,
+            "range": 1000,
+            "arcwidth": 144,
+            "barrel_angle": 5
           }
         ]
       }
     },
     {
       #---------------------------------- ship data --------------------------------
+      #--- Danube ~23m, 10x model
       "key": "tsn_bomber",
-      "name": "Bomber",
+      "name": "Danube Bomber",
       "origin": "Terran",
       "side": "TSN",
-      "artfileroot": "TSN_Bomber",
-      "meshscale": 0.0299999993294477,
-      "radarscale": 0.35,
+      "artfileroot": "FED_Danube_Bomber",
+      "meshscale": 0.04,
+      "radarscale": 0.25,
       "exclusionradius": 25.0,
       "meshrotate": 0,
-      "long_desc": "TSN Bomber^Standard bomber of the TSN.^1 forward beam.  10 torpedos.",
+      "long_desc": "Danube class Runabout with torpedo pod, 0.71 kT.^Standard bomber of the TSN.^1 forward beam.  10 torpedos.",
       "tubecount": 1,
       "torpedostart": [
         {
@@ -1783,8 +1736,8 @@
       ],
       #     "torpedostart": {"Homing": 10, "Nuke": 0, "EMP": 0, "Mine": 0 },
       "internalmapscale": 1.0,
-      "internalmapw": 7,
-      "internalmaph": 7,
+      "internalmapw": 8,
+      "internalmaph": 9,
       "internalsymmetry": 1,
       "turn_rate": 4,
       "speed_coeff": 1.3,
@@ -1801,52 +1754,14 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0.0,
-              -25.0,
-              5.0
-            ],
-            "color": "green",
+            "position": [ 0.0, -12.060, 59.110 ],
+            "color": "red",
             "arccolor": "#090",
             "cycle_time": 2,
             "damage_coeff": 1,
             "range": 1000,
             "arcwidth": 144,
             "barrel_angle": 0
-          }
-        ],
-        "exhaust": [
-          {
-            "position": [
-              20.5799083709717,
-              1.24726712703705,
-              -92.6001434326172
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              20.1263580322266,
-              -12.6994476318359,
-              -92.3922576904297
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -20.5799083709717,
-              1.24726712703705,
-              -92.6001434326172
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              -20.1263580322266,
-              -12.6994476318359,
-              -92.3922576904297
-            ],
-            "color": "blue"
           }
         ]
       }
