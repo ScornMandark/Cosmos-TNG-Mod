@@ -16,6 +16,7 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
 
 * Audio SFX and BGM are updated
 * Fonts updated
+* Starfleet Avatars!
 * 6 Starfleet ship classes available:
   - California class
   - Excelsior Refit class
