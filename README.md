@@ -29,7 +29,10 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
 
 
 * USFP partially populated by Federation assets!
+  - Starbase replaces Command Starbase
   - DS9 replaces Industrial Starbase  
+  - Generic Station replaces Civilian Starbase
+  - Comms Base replaces Science Starbase
 
 
 * Pirates populated by Orions!

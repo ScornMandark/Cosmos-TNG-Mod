@@ -38,12 +38,13 @@
     },
     {
       #---------------------------------- Starbase data --------------------------------
+      #--- Model 1000m diameter
       "key": "starbase_command",
       "name": "Command Starbase",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "tsn-big-base",
-      "meshscale": 14.5201349258423,
+      "artfileroot": "FED_CommandBase",
+      "meshscale": 0.4,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
       "internalmapw": 30,
@@ -58,36 +59,143 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [
-              0,
-              4.277,
-              0.033
-            ],
+            "position": [ -78.914, -385.133, -129.995 ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 6,
-            "damage_coeff": 1,
-            "range": 1100,
-            "arcwidth": 360,
-            "barrel_angle": 0
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 330
+          },
+          {
+            "position": [ 78.914, -385.133, -129.995 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 30
+          },
+          {
+            "position": [ -78.186, -527.729, -130.622 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 330
+          },
+          {
+            "position": [ 78.186, -527.729, -130.622 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 30
+          },
+          {
+            "position": [ -151.743, -383.958, 3.518 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 270
+          },
+          {
+            "position": [ 151.743, -383.958, 3.518 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 90
+          },
+          {
+            "position": [ -151.865, -526.359, 2.801 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 270
+          },
+          {
+            "position": [ 151.865, -526.359, 2.801 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 90
+          },
+          {
+            "position": [ -79.641, -385.618, -129.322 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 210
+          },
+          {
+            "position": [ 79.641, -385.618, -129.322 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 150
+          },
+          {
+            "position": [ -77.866, -525.740, -125.596 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 210
+          },
+          {
+            "position": [ 77.866, -525.740, -125.596 ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6,
+            "damage_coeff": 2,
+            "range": 1200,
+            "arcwidth": 120,
+            "barrel_angle": 150
           }
         ]
       }
     },
     {
       #---------------------------------- Starbase data --------------------------------
+      #--- "Generic Station" scaled to 900m diameter, rather 600m diameter
       "key": "starbase_civil",
       "name": "Civilian Starbase",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "civil_station",
-      "meshscale": 10.0,
-      "radarscale": 1.0,
+      "artfileroot": "FED_GenStation",
+      "meshscale": 0.266668,
+      "radarscale": 0.66667,
       "internalmapscale": 1.0,
       "internalmapw": 41,
       "internalmaph": 40,
       "internalsymmetry": 1,
-      "exclusionradius": 120.0,
+      "exclusionradius": 450.0,
       "shields": [
         300
       ],
@@ -180,18 +288,19 @@
     },
     {
       #---------------------------------- Starbase data --------------------------------
+      #--- Central hub scaled to 300m, arms stick out to 976
       "key": "starbase_science",
       "name": "Science Starbase",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "science_station",
-      "meshscale": 12.3993291854858,
+      "artfileroot": "FED_ScienceBase",
+      "meshscale": 0.4,
       "radarscale": 1.0,
       "internalmapscale": 1.0,
       "internalmapw": 30,
       "internalmaph": 30,
       "internalsymmetry": 1,
-      "exclusionradius": 120.0,
+      "exclusionradius": 450.0,
       "shields": [
         200
       ],
@@ -286,7 +395,7 @@
     {
     #---------------------------------- Starbase data --------------------------------
       "key": "starbase_skaraan",
-      "name": "Skaraan Base",
+      "name": "Dominion Base",
       "origin": "Skaraan",
       "side": "Skaraan",
       "artfileroot": "skaraan_station",
@@ -338,7 +447,7 @@
     {
       #---------------------------------- Starbase data --------------------------------
       "key": "starbase_torgoth",
-      "name": "Torgoth Base",
+      "name": "Romulan Base",
       "origin": "Torgoth",
       "side": "Torgoth",
       "artfileroot": "torgoth_station",
@@ -377,7 +486,7 @@
     {
       #---------------------------------- Starbase data --------------------------------
       "key": "starbase_kralien",
-      "name": "Kralien Base",
+      "name": "Kazon Base",
       "origin": "Kralien",
       "side": "Kralien",
       "artfileroot": "kralien_station",
