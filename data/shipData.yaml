@@ -3284,7 +3284,7 @@
             "arccolor": "#500",
             "cycle_time": 12,
             "damage_coeff": 4,
-            "range": 14500,
+            "range": 1450,
             "arcwidth": 30,
             "barrel_angle": 350
           },
@@ -7311,6 +7311,7 @@
   ]
 }
 # keep this end-of-file line, for parsing safety
+
 
 
 
