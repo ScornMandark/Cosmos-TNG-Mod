@@ -26,7 +26,7 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   - Sovereign class
   - Shuttle and Bomber replaced by 2 flavors of Danube Runabout
   - Fighter replaced by Peregrine
-* Currently more or less balanced to stock Cosmos ship shield and hull strengths.  
+* Overhauled balance of ships, weapons, and shielding based on the original TNG mod, which was based on the TMP and ItB mods.  
 
 
 * USFP partially populated by Federation assets!
