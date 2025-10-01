@@ -1,0 +1,342 @@
+{
+    "kralien": [
+        {
+            "button": "Taunt primitive technology",
+            "transmit": "Hey knuckle-draggers! Your ship looks like it was designed by protozoa!",
+            "failure": "You know nothing, {name}. No further messages will be received.",
+            "success": "A sharp rock still kills if you swing it hard enough. Prepare to die, {name}!",
+            "science": "The technology on this ship is primitive, even by Kazon standards."
+        },
+        {
+            "button": "Taunt ship's appearance",
+            "transmit": "You call that a ship? Where I come from that’s a rusting bucket of table scraps!",
+            "failure": "Your ship is rustier and also very stupid, {name}.",
+            "success": "Rust you say? Prepare to meet your ancestors, arrogant fools!",
+            "science": "The captain is very proud of their beautiful ship."
+        },
+        {
+            "button": "Taunt ugly captain",
+            "transmit": "Hey meat-head! The deadliest weapon on that pathetic excuse for a ship is your ugly face!",
+            "failure": "And your face is soft like a dung heap, {name}. You are being ignored.",
+            "success": "Your face will be shredded by mighty weapons of the Kazons!",
+            "science": "The captain is vain and proud of their handsome face."
+        },
+        {
+            "button": "Taunt tribal reputation",
+            "transmit": "Hey boot-licker! If the Kazons sent your tribe, they must be pretty desperate for phaser-fodder!",
+            "failure": "You are stupid, {name}. End communications.",
+            "success": "For your arrogance you shall immediately die!",
+            "science": "The markings on this vessel indicate one of the smaller Kazon tribes with a sketchy reputation."
+        },
+        {
+            "button": "Taunt reputation",
+            "transmit": "Hey lobster-face! It's easy to puff up your reputation when you always run from a real fight!",
+            "failure": "You are not worth the effort, {name}. Go annoy someone else.",
+            "success": "The mighty Kazons will obliterate your pathetic ship, {name}!",
+            "science": "The captain was recently overheard bragging about his spotless reputation in a space-bar."
+        },
+        {
+            "button": "Taunt bravery",
+            "transmit": "Hey rodent-face! If you skitter away like a frightened youngling, do you have to give that shiny medal back?",
+            "failure": "We do not suffer fools lightly, {name}. Communications ceased.",
+            "success": "The Kazons will not tolerate such insolence, {name}. Prepare to meet your ancestors!",
+            "science": "The captain was recently awarded a commendation for bravery by the Tribal Council."
+	},
+        {
+            "button": "Taunt captain's height",
+            "transmit": "Hey pipsqueek! Are you ready to fight with the big people, or should you run back home to your nursemaid?",
+            "failure": "The Kazon elders teach us to ignore useless fools, {name}. Communication ended.",
+            "success": "The Kazons will teach respect by blasting your ship into tiny pieces of scrap metal!",
+            "science": "The captain is short, even by Kazon standards, and is sensitive about his stature."
+        },
+        {
+            "button": "Taunt captain's youth",
+            "transmit": "Are the Tribe Elders giving such big toys to younglings now? Be careful, or it might get broken!",
+            "failure": "Wise Kazons ignore tricks like this, {name}. Go play games with someone else.",
+            "success": "Worthless weaklings! The wages of your insolence will be paid only with agony and death!",
+            "science": "The captain is young and inexperienced. They may be over-eager to prove themselves in battle."
+        }        
+],
+    "arvonian": [
+        {
+            "button": "Taunt appearance",
+            "transmit": "Hey vole-face! You're so ugly, your parents tied a zabu-steak around your neck to get the mitz to play with you!",
+            "failure": "If you find my face so objectionable, then I shall remove it. Ending all communications, {name}.",
+            "success": "Your miserable hides might make an adorable handbag, {name}! Prepare to die!",
+            "science": "The captain recently had cosmetic surgery to remove a scar, and is vain about their appearance."
+        },
+        {
+            "button": "Taunt long speeches",
+            "transmit": "Hey wide-mouth! I heard your last opponent blew themselves up rather than listen to one of your speeches!",
+            "failure": "You aren't worth talking about, {name}. Go bother someone else.",
+            "success": "At your funeral, I will be more than happy to deliver a long eulogy to your stupidity, {name}!",
+            "science": "The captain is known for making long-winded, boring speeches."
+        },
+        {
+            "button": "Taunt holoseries",
+            "transmit": "Hey, we tried to keep up with your holoseries, but it got cancelled for being too boring!",
+            "failure": "You've got the wrong Cardassians, you idiots. Go watch your space-wizards-and-laser-swords show somewhere else.",
+            "success": "The only thing being cancelled are your pathetic lives, {name}!",
+            "science": "The captain's favorite holoseries was recently cancelled."
+        },
+        {
+            "button": "Taunt nepotism",
+            "transmit": "Did you get that warship from your mommy? Do you know how to use it, or was it just to make you feel better?",
+            "failure": "Your idiotic chatter bores me, {name}. No further communication.",
+            "success": "What would a bunch of smelly savages know about good breeding? Your bloodlines all end today, {name}!",
+            "science": "The captain receieved their commission because they are the eldest child of a famous war hero."
+        },
+        {
+            "button": "Taunt intelligence",
+            "transmit": "Hey spoon-head! I heard you're too dumb to play dabo. I bet you can't fight, either!",
+            "failure": "Don't bother me with your silly games, {name}. Go play with someone else.",
+            "success": "You want to play games, {name}? Prepare for a lesson in death and destruction!",
+            "science": "The captain recently got into a fight over a dabo game after another player criticized their intelligence."
+        },
+        {
+            "button": "Taunt cowardice",
+            "transmit": "Wow, I haven't seen a Cardassian move that fast since you got scared and ran away at the Battle of Rondac III!",
+            "failure": "You're not worth the bother, {name}. Find someone else to annoy.",
+            "success": "Many brave Cardassians died that day, {name}. Prepare to join them!",
+            "science": "The captain was reprimanded at the Battle of Rondac III for failing to engage the enemy."
+	},
+        {
+            "button": "Taunt disgraced family",
+            "transmit": "Your superiors must not consider us a threat, if they are throwing their dregs and washouts after us!",
+            "failure": "Your prattling nonsense is beneath me, {name}. Communications ceased.",
+            "success": "The aytlik-worm eats both the legate and manure-farmer, {name}. Your corpses will provide a feast for them!",
+            "science": "The captain was sponsored by a disgraced family, and is sensitive about their lack of family connections."
+	},
+        {
+            "button": "Taunt captain's birth",
+            "transmit": "Hey little orphan ugly! We found your birth certificate. Turns out your parents were krintar-slugs!",
+            "failure": "I wasn't born yesterday, {name}. We are done listening to your nonsense.",
+            "success": "How curious. Cardassian Intelligence found your death certificates. We have already signed them for you!",
+            "science": "The captain was an orphan, and doesn't like to talk about the circumstances of their birth."
+	}
+],
+        "torgoth": [
+        {
+            "button": "Taunt mother",
+            "transmit": "Hey Romulan bastard! Your mother is a gormagander!",
+            "failure": "You are an idiot, {name}. My mother died years ago.",
+            "success": "You shall die for insulting my mother, {name}!",
+            "science": "The captain loves their mother and visits her frequently."
+        },
+        {
+            "button": "Taunt wife",
+            "transmit": "You are so ugly, your wife will thank me for killing you.",
+            "failure": "I'm not even married, Federation phaser face.",
+            "success": "I shall crush your ugly head with my bare hands! Set course to intercept {name}!",
+            "science": "The captain is insecure that his wife flirts with more attractive men."
+        },
+        {
+            "button": "Taunt appearance",
+            "transmit": "Please keep your cloaking device turned on so we can't see your homely face.",
+            "failure": "And you have the face of a tumorous Nausicaan. Now be silent while I destroy all your ships and bases.",
+            "success": "How dare you insult my beautiful face? Prepare to die, {name}!",
+            "science": "The captain is proud of their perfect facial features."
+        },
+        {
+            "button": "Taunt hairstyle",
+            "transmit": "Hey, Rommie! Did your barber resign in protest or was that hairstyle an act of war?",
+            "failure": "And you put a literal moose in your hair, {name}. I'm closing this channel so I don't have to look at you.",
+            "success": "You dare to insult my perfect hair? I am changing course to kill you now, {name}!",
+            "science": "The captain is particularly proud of their hairstyle."
+        },
+        {
+            "button": "Taunt slow speed",
+            "transmit": "Hey Commander Stiff-Shoulders! Did it take a hundred years for that junkpile to cross the Neutral Zone?",
+            "failure": "Patience, {name}. I will kill you after I destroy all of your Federation Starbases.",
+            "success": "My beautiful ship will bring a swift death to you, {name}. Full speed ahead!",
+            "science": "The captain is proud to have a sleek and speedy starship."
+        },
+        {
+            "button": "Taunt cowardice",
+            "transmit": "Hey there, Commander Needle Ears! If you're too scared to fight, maybe you could surrender to our shuttle?",
+            "failure": "I believe you've mistaken me for your sister, {name}. Last Satrurday she surrendered to my Centurian.",
+            "success": "We will not tolerate such insolence, {name}! We will destroy you!",
+            "science": "The captain was labeled a coward for surrendering a D'deridex-class warship at the Battle of Algira sector."
+        },
+        {
+            "button": "Taunt captain's poor secrecy",
+            "transmit": "Hey blabbermouth! Thanks for telling us the codes for every Romulan cloaking device!",
+            "failure": "Was that suppose to be a joke, {name}? Stand by as we deliver the punchline to your doomed starbase.",
+            "success": "I defy you to find a flaw in my strategy, {name}! Set course for {name} and lock plasma torpedoes!",
+            "science": "The captain has a reputation as a blabbermouth who cannot keep a secret."
+        },
+        {
+            "button": "Taunt captain's ears",
+            "transmit": "Nice ears, Rommie! Can you even hear with those precious little things?",
+            "failure": "My ears are exquisite, {name}. They can hear the death screams of your starbase crew.",
+            "success": "You dare to insult a Romulan Comander's ears! I shall have my revenge when I hear {name} explode.",
+            "science": "The captain has round ears for a Romulan, and other Romulan Commanders make fun of him."
+        },
+        {
+            "button": "Taunt intelligence",
+            "transmit": "Hey Commander Spikey Ears! I've met Packleds that are smarter than you!",
+            "failure": "You've mistaken me for your sister, {name}. When I destroy your starbase your own stupidity will be to blame.",
+            "success": "Foolish human! I will personally fire the plasma torpedo that destroys the stupid ship {name}!",
+            "science": "The captain graduated last in his class, and has a reputation for being stupid."
+        },
+        {
+            "button": "Taunt captain's failed assasination",
+            "transmit": "Hey Commander Twinkle Tips! If we don't kill you today your own Senate will kill you tomorrow!",
+            "failure": "You are mistaken, {name}. I have an excellent relationhip with the Senate. Communications closed.",
+            "success": "How dare you insult my aspirations, {name}! I won't need assasins to destroy your pathetic starship!",
+            "science": "The captain failed in their attempt to assasinate a Romulan Senator. Now the Senator is trying to assasinate them."
+	}
+],
+    "skaraan": [
+     {
+         "button": "Taunt last of the clone line",
+         "transmit": "Hey Vorta! You are the end of a pathetic line of losers!",
+         "failure": "You are being ridiculous, {name}. My clones and I will destroy all of your starbases.",
+         "success": "My clone line has served the Founders well, {name}. It only takes one of me to destroy you!",
+         "science": "This Vorta is the last of his clone line because the Founders have discontinued it."
+     },
+     {
+         "button": "Taunt Jem'Hadar respect",
+         "transmit": "Don't turn your back, Vorta, or your own Jem'Hadar will kill you!",
+         "failure": "I won't even dignify your worthless comment, {name}. My clones and I have a perfect record.",
+         "success": "How dare you insult my clone line, {name}? The Founders will reward me for killing you!",
+         "science": "One of this Vorta's clones was killed by Jem'Hadar who lost respect for him."
+     },
+     {
+         "button": "Taunt Founder overruling",
+         "transmit": "You worthless puppet! The Founders always step in to clean up your terrible decisions!",
+         "failure": "Whatever you say, {name}. Right now I am deciding to ignore you and destroy your starbases.",
+         "success": "How dare you insult my decisions! I have decided that now I will destroy you, {name}!",
+         "science": "This Vorta worked hard to become a good tactician, yet their decisions are constantly overruled by The Founders."
+     },
+     {
+         "button": "Taunt Vorta's incompetence",
+         "transmit": "Hey, bleach-face! You're a bumbling failure from a long line of incompetent stooges!",
+         "failure": "My clones and I have perfect service records, {name}. Raw power is sure to come on your defeneseless starbases.",
+         "success": "The Founders find my record to be almost adequate! Are you ready to die, {name}?",
+         "science": "Several of this Vorta's clones were executed for incompetence at their duties."
+     },
+     {
+         "button": "Taunt Ketracel-White",
+         "transmit": "Do your Jem'Hadar know you took a bath in their Ketracel-White?",
+         "failure": "You must be referring to Luaran 4, {name}. I am not so clumsy, as I will demonstrate while destroying your starbases.",
+         "success": "That's a filthy lie! My Jem'Hadar know I take care of them. Prepare to die, {name}!",
+         "science": "This Vorta once abandoned his own squad of Jem'Hadar after he misplaced their Ketracel-White."
+     },
+     {
+         "button": "Taunt Vorta failed a Founder",
+         "transmit": "You failed your Founders. They shold have flushed you out the airlock at the Battle of the Omarion Nebula!",
+         "failure": "Sorry, but your intelligence is wrong, {name}. I was not present at the Battle of the Omarion Nebula.",
+         "success": "That wasn't my fault, {name}! And I'm going to kill you for bringing it up!",
+         "science": "This Vorta failed to protect a Founder at the Battle of the Omarion Nebula."
+     },
+     {
+         "button": "Taunt Vorta's eyesight",
+         "transmit": "Hey zipper ears! I think I saw a Founder in your Jem'Hadar's toilet!",
+         "failure": "The Jem'Hadar have no need for toilets, {name}. And I have no time for your taunts.",
+         "success": "My eyes were made by gods, {name}! They are strong enough for me to set a course to kill you!",
+         "science": "This Vorta's eyes are so weak that she once called a mud puddle 'Founder'."
+     },
+     {
+         "button": "Taunt Vorta's battle reports",
+         "transmit": "You sniveling sycophant! Are you ready to run away and send The Founders another fake report?",
+         "failure": "My reports are always accurate, {name}. This will be the moment in my log when I cut off communication with you.",
+         "success": "How dare you spread these baseless falsehoods! Come about for a full attack on {name}!",
+         "science": "Starfleet Intelligence reports this Vorta has been exaggerating his battle-reports to The Founders."
+     },
+     {
+         "button": "Taunt The Order of Things",
+         "transmit": "Hey weakling! I hear you failed to maintain The Order of Things! If The Dominion falls apart it's your fault!",
+         "failure": "The Order of Things is unquestionable, {name}. Next on my agenda is destroying your starbases.",
+         "success": "That was the Jem'Hadar's fault! Now you have angered me and I will destroy you!",
+         "science": "This Vorta was once beaten up by Naussicans, causing his Jem'Hadar to question The Order of Things."
+     },
+     {
+         "button": "Taunt Vorta refered to 'Frownder'",
+         "transmit": "You insolent little brain worm! I can't wait to tell the 'Frownder' what you think of her!",
+         "failure": "You must be referring to Weyoun 2, {name}. He had a lot of defects.",
+         "success": "What?! You're not supposed to know that, {name}! Now I must destroy you before you repeat that story!",
+         "science": "This Vorta was once called the Female Changeling 'Frownder' behind her back."
+     }  
+],
+    "ximni": [
+        {
+            "button": "Taunt captain's father",
+            "transmit": "Your father is so stupid he thinks planets are tiny plans.",
+            "failure": "And you are stupid for believing I would react to that, {name}!",
+            "success": "My father sits on the Council, {name}! For insulting him you shall die!",
+            "science": "The captain is proud that his father sits on the Klingon High Council."
+        },
+        {
+            "button": "Taunt captain's honor",
+            "transmit": "You cowardly simpleton! You don't know the meaning of the word honor!",
+            "failure": "Only a honorless stooge would use such a pointless insult, {name}.",
+            "success": "You dare to insult my honor? My vengence will be your death, {name}!",
+            "science": "The captain was once accused of dishonorable conduct and still feels bitter about it."
+        },
+        {
+            "button": "Taunt captain's courage",
+            "transmit": "You wouldn’t dare fight me, you cowering Ferengi shoe salesman!",
+            "failure": "I will get around to fighting you eventually, {name}. Right now I have more important enemies to defeat.",
+            "success": "I have ten times your courage, {name}! And I am coming to kill you!",
+            "science": "Starfleet Intelligence reports that the captain is inexperienced and insecure about his own courage."
+        },
+        {
+            "button": "Taunt captain's carousing",
+            "transmit": "You are an insipid humdrum who no one wants at their parties!",
+            "failure": "You're dreary as a Benzite, {name}. I'm blocking you.",
+            "success": "This party will be your last! Arm weapons! Destroy {name}! Prepare to break out the blood wine!",
+            "science": "The captain is proud of their wild reputation for drinking blood wine and carousing."
+        },
+        {
+            "button": "Taunt captain's relationship with the High Council",
+            "transmit": "Hey, tugh nach! The High Council says you are a sniveling nitwit!",
+            "failure": "You are a tlhaQ, {name}. The High Council agrees with me on everything!",
+            "success": "My personal High Council says I must destroy you, {name}! Change course and lock weapons on {name}!",
+            "science": "The captain has made public statements that are critical of the Klingon High Council."
+        },
+        {
+            "button": "Taunt captain's singing voice",
+            "transmit": "The deadliest weapon on your ship is your off-key singing voice.",
+            "failure": "And your voice annoys the galaxy, {name}. We will no longer listen to it.",
+            "success": "We will sing about our glorious victory after we annihilate you, {name}. Too bad you won't be around to hear it!",
+            "science": "The captain is proud to sing Klingon opera, but their technique is annoying and childish."
+        },
+        {
+            "button": "Taunt captain's House",
+            "transmit": "Hey, pujwI' mach! You might as well run away now. Your worthless House never sticks around for a real fight!",
+            "failure": "When the battle ends, we shall see who remains, {name}. Until then, no further communication.",
+            "success": "Pathetic vole-brains! I am setting course to sing of your stupidity at your funeral, {name}!",
+            "science": "The captain's House has a reputation for being cowardly."
+        },
+        {
+            "button": "Taunt captain's mother-in-law",
+            "transmit": "Hey, Klingon qoH! Your 'e'nal called us, she said you'd better give up before you get everyone killed!",
+            "failure": "I'm not even married, {name}, but I hear your mother-in-law is a real wjach veqlargh. Communication ended.",
+            "success": "My 'e'nal knows nothing! I am setting course to intercept you, {name}! Your death with be excrutiatingly painful!",
+            "science": "The captain's mother-in-law has commented about their lack of intelligence and poor leadership skills."
+        },
+	{
+            "button": "Taunt captain's cheating",
+            "transmit": "Hey, ngorwI'! You better run away, we know you cheat like a Ferengi!",
+            "failure": "I've never played bat'leths and biHnuchs, {name}. When I destroy your Federation Starbase it won't be a game.",
+            "success": "I have you in my sights, {name}. When I destroy you it will not be a game!",
+            "science": "The captain was caught falsifying dice rolls in bat'leths and biHnuchs."
+        },
+	{
+            "button": "Taunt captain' fighting skills",
+            "transmit": "Clumsy bIHnuch! You and I both know you can't fight you way through Tholian silk!",
+            "failure": "I am a decorated Dahar Master, {name}. Your Starbase is doomed and I won't listen to any more foolishness.",
+            "success": "I've been practicing, {name}! I'm setting a course to show you how deadly I have become!",
+            "science": "In the bat'leth tournament on Forcas III, the captain came in last place."
+        }
+],
+    "unknown": [{
+        "button": "",
+        "transmit": "",
+        "failure": "",
+        "success": "",
+        "science": "The captain cannot be taunted."
+    }]
+
+}
