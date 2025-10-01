@@ -1,6 +1,6 @@
 # Cosmos-TNG-Mod
 TNG mod for Artemis Cosmos 1.2.0
-Latest update: 01 October, 2025  
+Latest release: v0.2 01 October, 2025  
 
 # Installation Instructions:
 * Download repository
@@ -15,6 +15,7 @@ Latest update: 01 October, 2025
 NOTE: due to the way Cosmos mission scripts are created, currently all races and ship types hard coded into the scripts themselves.  I'll eventually create a TNG mission suite that breaks away from this, but for now we need to directly replace the ship types called in the scripts.  
 
 * Audio SFX and BGM are updated
+* Trek Themed taunts by Mike Substelny!
 * Fonts updated
 * Starfleet Avatars!
 * 6 Starfleet ship classes available:
