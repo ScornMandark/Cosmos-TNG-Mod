@@ -1,6 +1,6 @@
 # Cosmos-TNG-Mod
 TNG mod for Artemis Cosmos 1.2.0
-Latest update: 26 September, 2025  
+Latest update: 01 October, 2025  
 
 # Installation Instructions:
 * Download repository
@@ -26,7 +26,7 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
   - Sovereign class
   - Shuttle and Bomber replaced by 2 flavors of Danube Runabout
   - Fighter replaced by Peregrine
-* Overhauled balance of ships, weapons, and shielding based on the original TNG mod, which was based on the TMP and ItB mods.  
+* Overhauled balance of ships, beams, torpedos, and shielding based on the original TNG mod, which was based on the TMP and ItB mods.  
 
 
 * USFP partially populated by Federation assets!
@@ -79,5 +79,5 @@ NOTE: due to the way Cosmos mission scripts are created, currently all races and
 
 # Planned next steps
 * Increase number of TNG ships for players and enemies
-* Possibly rebalance as per original TNG mod
-* Update interface fonts
+* Create TMP version
+* Create TOS version
