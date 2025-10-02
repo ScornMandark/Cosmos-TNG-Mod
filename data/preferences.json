@@ -98,7 +98,7 @@
   //"energy_to_torp_cost": 150.0,   deprecated
   //"torp_to_energy_cost": 100.0,   deprecated
 
-  "torpedo_homing_damage": 75,
+  "torpedo_homing_damage": 150,
   "torpedo_nuke_damage": 8,
   "torpedo_emp_shield_damage_coeff": 0.5,
   "torpedo_nuke_damage_radius": 1000,

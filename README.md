@@ -1,6 +1,6 @@
 # Cosmos-TNG-Mod
 TNG mod for Artemis Cosmos 1.2.0
-Latest release: v0.2 01 October, 2025  
+Latest release: v0.2.1 02 October, 2025  
 
 # Installation Instructions:
 * Download repository
