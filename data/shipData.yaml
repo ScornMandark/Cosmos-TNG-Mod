@@ -16,8 +16,8 @@
 
   #------------------------------------------------------------------
   "#ship-list": [
-    {
       #---------------------------------- data for default 3d data (if other data not found) --------------------------------
+    {
       "key": "unknown",
       "name": "unknown",
       "side": "unknown",
@@ -26,8 +26,8 @@
       "radarscale": 1.0,
       "exclusionradius": 0.0
     },
-    {
       #---------------------------------- data for cursor object, for use in mission edit tool scripts --------------------------------
+    {
       "key": "cursor",
       "name": "cursor",
       "side": "cursor",
@@ -36,8 +36,8 @@
       "radarscale": 1.0,
       "exclusionradius": 0.0
     },
+      #---------------------------------- Starbase data - Command Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       #--- Model 1000m diameter
       "key": "starbase_command",
       "name": "Command Starbase",
@@ -59,130 +59,178 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -78.914, -385.133, -129.995 ],
+            "position": [
+              -78.914,
+              -385.133,
+              -129.995
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ -79.641, -385.618, -129.322 ],
+            "position": [
+              -79.641,
+              -385.618,
+              -129.322
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 210
           },
           {
-            "position": [ -78.186, -527.729, -130.622 ],
+            "position": [
+              -78.186,
+              -527.729,
+              -130.622
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ -77.866, -525.740, -125.596 ],
+            "position": [
+              -77.866,
+              -525.74,
+              -125.596
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 210
           },
           {
-            "position": [ 78.914, -385.133, -129.995 ],
+            "position": [
+              78.914,
+              -385.133,
+              -129.995
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ 79.641, -385.618, -129.322 ],
+            "position": [
+              79.641,
+              -385.618,
+              -129.322
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 150
           },
           {
-            "position": [ 78.186, -527.729, -130.622 ],
+            "position": [
+              78.186,
+              -527.729,
+              -130.622
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ 77.866, -525.740, -125.596 ],
+            "position": [
+              77.866,
+              -525.74,
+              -125.596
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 150
           },
           {
-            "position": [ -151.743, -383.958, 3.518 ],
+            "position": [
+              -151.743,
+              -383.958,
+              3.518
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 151.743, -383.958, 3.518 ],
+            "position": [
+              151.743,
+              -383.958,
+              3.518
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ -151.865, -526.359, 2.801 ],
+            "position": [
+              -151.865,
+              -526.359,
+              2.801
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 151.865, -526.359, 2.801 ],
+            "position": [
+              151.865,
+              -526.359,
+              2.801
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 12.22,
             "damage_coeff": 2.5,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           }
         ]
       }
     },
+      #---------------------------------- Starbase data - Civilian Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       #--- "Generic Station" model 900m diameter, in game 600m diameter
       "key": "starbase_civil",
       "name": "Civilian Starbase",
@@ -202,8 +250,8 @@
       "hullpoints": 100,
       "roles": "station"
     },
+      #---------------------------------- Starbase data - Industry Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       #--- DS9 scaled to ~1100m diameter
       "key": "starbase_industry",
       "name": "Deep Space 9",
@@ -225,7 +273,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.0, 36.75, -241.366 ],
+            "position": [
+              0.0,
+              36.75,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -235,7 +287,11 @@
             "barrel_angle": 165
           },
           {
-            "position": [ 0.0, 36.75, -241.366 ],
+            "position": [
+              0.0,
+              36.75,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -245,7 +301,11 @@
             "barrel_angle": 195
           },
           {
-            "position": [ -208.702, 36.75, 121.0 ],
+            "position": [
+              -208.702,
+              36.75,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -255,7 +315,11 @@
             "barrel_angle": 285
           },
           {
-            "position": [ -208.702, 36.75, 121.0 ],
+            "position": [
+              -208.702,
+              36.75,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -265,7 +329,11 @@
             "barrel_angle": 315
           },
           {
-            "position": [ 208.702, 36.75, 121.0 ],
+            "position": [
+              208.702,
+              36.75,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -275,7 +343,11 @@
             "barrel_angle": 45
           },
           {
-            "position": [ 208.702, 36.75, 121.0 ],
+            "position": [
+              208.702,
+              36.75,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -285,120 +357,168 @@
             "barrel_angle": 75
           },
           {
-            "position": [ 0.0, 106.360, -241.366 ],
+            "position": [
+              0.0,
+              106.36,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 165
           },
           {
-            "position": [ 0.0, 106.360, -241.366 ],
+            "position": [
+              0.0,
+              106.36,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 195
           },
           {
-            "position": [ -208.702, 106.360, 121.0 ],
+            "position": [
+              -208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 285
           },
           {
-            "position": [ -208.702, 106.360, 121.0 ],
+            "position": [
+              -208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 315
           },
           {
-            "position": [ 208.702, 106.360, 121.0 ],
+            "position": [
+              208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 45
           },
           {
-            "position": [ 208.702, 106.360, 121.0 ],
+            "position": [
+              208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 75
           },
           {
-            "position": [ 0.0, -32.865, -241.366 ],
+            "position": [
+              0.0,
+              -32.865,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 165
           },
           {
-            "position": [ 0.0, -32.865, -241.366 ],
+            "position": [
+              0.0,
+              -32.865,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 195
           },
           {
-            "position": [ -208.702, -32.865, 121.0 ],
+            "position": [
+              -208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 285
           },
           {
-            "position": [ -208.702, -32.865, 121.0 ],
+            "position": [
+              -208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 315
           },
           {
-            "position": [ 208.702, -32.865, 121.0 ],
+            "position": [
+              208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
             "barrel_angle": 45
           },
           {
-            "position": [ 208.702, -32.865, 121.0 ],
+            "position": [
+              208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
-            "cycle_time": 16.10,
+            "cycle_time": 16.1,
             "damage_coeff": 1.92,
             "range": 1680,
             "arcwidth": 90,
@@ -407,8 +527,8 @@
         ]
       }
     },
+      #---------------------------------- Starbase data - Science Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       #--- Central hub scaled to 300m, arms stick out to 976
       "key": "starbase_science",
       "name": "Science Starbase",
@@ -428,8 +548,8 @@
       "hullpoints": 100,
       "roles": "station"
     },
+      #---------------------------------- Starbase data - Arvonian Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       #---DS9 scaled to ~1100m
       "key": "starbase_arvonian",
       "name": "Terok Nor",
@@ -452,7 +572,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -208.702, 106.360, 121.0 ],
+            "position": [
+              -208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -462,7 +586,11 @@
             "barrel_angle": 285
           },
           {
-            "position": [ -208.702, 106.360, 121.0 ],
+            "position": [
+              -208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -472,7 +600,11 @@
             "barrel_angle": 315
           },
           {
-            "position": [ 208.702, 106.360, 121.0 ],
+            "position": [
+              208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -482,7 +614,11 @@
             "barrel_angle": 45
           },
           {
-            "position": [ 208.702, 106.360, 121.0 ],
+            "position": [
+              208.702,
+              106.36,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -492,7 +628,11 @@
             "barrel_angle": 75
           },
           {
-            "position": [ 0.0, 107.010, -241.366 ],
+            "position": [
+              0.0,
+              107.01,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -502,7 +642,11 @@
             "barrel_angle": 165
           },
           {
-            "position": [ 0.0, 107.010, -241.366 ],
+            "position": [
+              0.0,
+              107.01,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -512,7 +656,11 @@
             "barrel_angle": 195
           },
           {
-            "position": [ 0.0, -32.865, -241.366 ],
+            "position": [
+              0.0,
+              -32.865,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -522,7 +670,11 @@
             "barrel_angle": 165
           },
           {
-            "position": [ 0.0, -32.865, -241.366 ],
+            "position": [
+              0.0,
+              -32.865,
+              -241.366
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -532,7 +684,11 @@
             "barrel_angle": 195
           },
           {
-            "position": [ -208.702, -32.865, 121.0 ],
+            "position": [
+              -208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -542,7 +698,11 @@
             "barrel_angle": 285
           },
           {
-            "position": [ -208.702, -32.865, 121.0 ],
+            "position": [
+              -208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -552,7 +712,11 @@
             "barrel_angle": 315
           },
           {
-            "position": [ 208.702, -32.865, 121.0 ],
+            "position": [
+              208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -562,7 +726,11 @@
             "barrel_angle": 45
           },
           {
-            "position": [ 208.702, -32.865, 121.0 ],
+            "position": [
+              208.702,
+              -32.865,
+              121.0
+            ],
             "color": "orange",
             "arccolor": "#090",
             "cycle_time": 10.5,
@@ -574,8 +742,8 @@
         ]
       }
     },
+      #---------------------------------- Starbase data - Skaraan Base --------------------------------
     {
-    #---------------------------------- Starbase data --------------------------------
       "key": "starbase_skaraan",
       "name": "Dominion Base",
       "origin": "Skaraan",
@@ -626,8 +794,8 @@
         ]
       }
     },
+      #---------------------------------- Starbase data - Torgoth Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       "key": "starbase_torgoth",
       "name": "Romulan Base",
       "origin": "Torgoth",
@@ -665,8 +833,8 @@
         ]
       }
     },
+      #---------------------------------- Starbase data - Kralien Base --------------------------------
     {
-      #---------------------------------- Starbase data --------------------------------
       "key": "starbase_kralien",
       "name": "Kazon Base",
       "origin": "Kralien",
@@ -703,8 +871,8 @@
         ]
       }
     },
+      #---------------------------------- monster data - Charbdis --------------------------------
     {
-      #---------------------------------- monster data --------------------------------
       "key": "monster_charbdis",
       "name": "Charbdis",
       "origin": "monster",
@@ -717,137 +885,310 @@
       "heal_rate": 0.1,
       "roles": "charbdis,monster"
     },
+      #---------------------------------- ship data - tsn_light_cruiser - Saber Class --------------------------------
     {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "asteroid_crystal_blue",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_1",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
+      #--- Saber Class 223m, scaled to 538
+      "key": "tsn_light_cruiser",
+      "name": "Saber Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_Saber",
+      "meshscale": 0.165700003504753,
+      "radarscale": 0.707,
+      "exclusionradius": 50.0,
+      "meshrotate": 0,
+      "long_desc": "Saber Class Cruiser^Commander Grade^A next-generation light cruiser^8 beams, 3 Torpedo tubes.",
+      "tubecount": 3,
+      "torpedostart": [
+        {
+          "Homing": 24
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 18,
+      "internalmaph": 15,
+      "internalsymmetry": 1,
+      "turn_rate": 1.05,
+      "speed_coeff": 1.4,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 0.88,
+      "warp_energy_cost": 0.7,
+      "jump_energy_cost": 1.5,
+      "roles": "ship,warship,defender,light,patrol,exploration",
+      "shields": [
+        1440,
+        1440
+      ],
+      "hullpoints": 6,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -82.1348114013672,
+              31.0611553192139,
+              108.392723083496
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              82.1348114013672,
+              31.0611553192139,
+              108.392723083496
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -33.0729522705078,
+              -24.7030868530273,
+              81.2280654907227
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 15
+          },
+          {
+            "position": [
+              33.0729522705078,
+              -24.7030868530273,
+              81.2280654907227
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 345
+          },
+          {
+            "position": [
+              -130.76042175293,
+              30.1499004364014,
+              78.524040222168
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [
+              130.76042175293,
+              30.1499004364014,
+              78.524040222168
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -151.135269165039,
+              29.9128456115723,
+              12.4484376907349
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              151.135269165039,
+              29.9128456115723,
+              12.4484376907349
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.55,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          }
+        ]
+      }
     },
+      #---------------------------------- ship data - tsn_warpster - Centaur Class --------------------------------
     {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "asteroid_crystal_red",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_2",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
+      #--- Centaur class, 231m, scaled 543
+      "key": "tsn_warpster",
+      "name": "Centaur Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_Centaur",
+      "meshscale": 0.170200005173683,
+      "radarscale": 0.713,
+      "exclusionradius": 50.0,
+      "meshrotate": 0,
+      "long_desc": "Centaur Class Destroyer^Lieutenant Grade^A next generation destroyer^6 beams, 2 Torpedo tubes.",
+      "tubecount": 2,
+      "torpedostart": [
+        {
+          "Homing": 24
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 13,
+      "internalmaph": 16,
+      "internalsymmetry": 1,
+      "turn_rate": 1.39,
+      "speed_coeff": 1.63,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 0.92,
+      "warp_energy_cost": 0.7,
+      "jump_energy_cost": 1.5,
+      "roles": "ship,warship,defender,medium,patrol,exploration",
+      "shields": [
+        540,
+        540
+      ],
+      "hullpoints": 5,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -35.2520942687988,
+              12.7060775756836,
+              82.0002365112305
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 4.82,
+            "damage_coeff": 0.83,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              35.2520942687988,
+              12.7060775756836,
+              82.0002365112305
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 4.82,
+            "damage_coeff": 0.83,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -50.3889770507812,
+              12.7122201919556,
+              46.3327674865723
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 4.82,
+            "damage_coeff": 0.83,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [
+              50.3889770507812,
+              12.7122201919556,
+              46.3327674865723
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 4.82,
+            "damage_coeff": 0.83,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -40.6665115356445,
+              -9.81383037567139,
+              23.1755981445312
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 4.82,
+            "damage_coeff": 0.83,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              40.6665115356445,
+              -9.81383037567139,
+              23.1755981445312
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 4.82,
+            "damage_coeff": 0.83,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          }
+        ]
+      }
     },
+      #---------------------------------- ship data - tsn_scout - California Class --------------------------------
     {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "asteroid_crystal_yellow",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_3",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "asteroid_crystal_silver",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_4",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "asteroid_crystal_green",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_5",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "plain_asteroid_6",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_6",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "plain_asteroid_7",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_7",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "plain_asteroid_8",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_8",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "plain_asteroid_9",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_9",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "plain_asteroid_10",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_10",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- asteroid data --------------------------------
-      "key": "plain_asteroid_11",
-      "name": "Asteroid",
-      "origin": "Roklithoid",
-      "side": "asteroid",
-      "artfileroot": "Asteroid_11",
-      "meshscale": 0.5,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0
-    },
-    {
-      #---------------------------------- ship data --------------------------------
-      #----- Cali length 535m
+      #----- Cali length 535m, scaled to 715
       "key": "tsn_scout",
       "name": "California Class",
       "origin": "Terran",
       "side": "TSN",
       "artfileroot": "FED_California",
-      "meshscale": 0.4,
-      "radarscale": 1.0,
+      "meshscale": 0.299299985170364,
+      "radarscale": 0.874,
       "exclusionradius": 107.0,
       "meshrotate": 0,
       "long_desc": "California Class Advanced Support Ship^Commander Grade^A next-generation support ship design^8 beams, 2 Torpedo tubes.",
@@ -886,98 +1227,452 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -69.363, 22.267, 208.620 ],
+            "position": [
+              -92.031,
+              29.873,
+              347.679
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 315
           },
           {
-            "position": [ 69.363, 22.267, 208.620 ],
+            "position": [
+              92.031,
+              29.873,
+              347.679
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 45
           },
           {
-            "position": [ -112.417, 22.226, 53.519 ],
+            "position": [
+              -158.46,
+              29.761,
+              158.769
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 225
           },
           {
-            "position": [ 112.417, 22.226, 53.519 ],
+            "position": [
+              158.46,
+              29.761,
+              158.769
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 135
           },
           {
-            "position": [ 0.00, 0.341, 182.783 ],
+            "position": [
+              0.0,
+              0.295,
+              315.363
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 0
           },
           {
-            "position": [ -76.325, 0.124, 89.299 ],
+            "position": [
+              -104.31,
+              0.213,
+              215.892
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 76.325, 0.124, 89.299 ],
+            "position": [
+              104.31,
+              0.213,
+              215.892
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ 0.062, 24.223, -21.998 ],
+            "position": [
+              0.0,
+              32.326,
+              37.376
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 8.11,
             "damage_coeff": 1.17,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 180
           }
         ]
       }
     },
+      #---------------------------------- ship data - tsn_light_carrier - Constellation Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
-      #--- Excelsior Refit 469m
-      "key": "tsn_light_cruiser",
+      #--- Constellation class, 310m, scaled to 588
+      "key": "tsn_light_carrier",
+      "name": "Constellation Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_Constellation",
+      "meshscale": 0.210999995470047,
+      "radarscale": 0.764,
+      "exclusionradius": 65.0,
+      "meshrotate": 0,
+      "long_desc": "Constellation Class Cruiser^Commander Grade^An older quad cruiser design^8 beams, 2 torpedo tubes.",
+      "tubecount": 2,
+      "torpedostart": [
+        {
+          "Homing": 24
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 13,
+      "internalmaph": 16,
+      "internalsymmetry": 1,
+      "turn_rate": 0.73,
+      "speed_coeff": 1.66,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 1.0,
+      "warp_energy_cost": 0.8,
+      "jump_energy_cost": 1.5,
+      "roles": "ship,warship,defender,medium,patrol,carrier",
+      "shields": [
+        750,
+        750
+      ],
+      "hullpoints": 5,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              0.0,
+              25.1501541137695,
+              273.895385742188
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              0.0,
+              -23.187931060791,
+              273.651123046875
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -54.9539375305176,
+              -23.3483695983887,
+              218.187026977539
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              54.9539375305176,
+              -23.3483695983887,
+              218.187026977539
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -54.4834365844727,
+              25.0843563079834,
+              218.759368896484
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              54.4834365844727,
+              25.0843563079834,
+              218.759368896484
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -90.4974670410156,
+              18.0448722839355,
+              311.715698242188
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 315
+          },
+          {
+            "position": [
+              90.4974670410156,
+              18.0448722839355,
+              311.715698242188
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.0,
+            "damage_coeff": 1.33,
+            "range": 1260,
+            "arcwidth": 90,
+            "barrel_angle": 45
+          }
+        ]
+      }
+    },
+      #---------------------------------- ship data - tsn_escort - Intrepid Class --------------------------------
+    {
+      #--- Intrepid class, 344m, scaled to 607
+      "key": "tsn_escort",
+      "name": "Intrepid Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_Intrepid",
+      "meshscale": 0.226699993014336,
+      "radarscale": 0.783,
+      "exclusionradius": 75.0,
+      "meshrotate": 0,
+      "long_desc": "Intrepid Class Explorer^Commander Grade^A next-generation fast explorer design^8 beams, 3 Torpedo tubes.",
+      "tubecount": 3,
+      "torpedostart": [
+        {
+          "Homing": 24
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 15,
+      "internalmaph": 17,
+      "internalsymmetry": 1,
+      "turn_rate": 1.39,
+      "speed_coeff": 1.63,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 0.88,
+      "warp_energy_cost": 0.7,
+      "jump_energy_cost": 1.5,
+      "roles": "ship,warship,defender,medium,patrol,exploration",
+      "shields": [
+        1320,
+        1320
+      ],
+      "hullpoints": 6,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -39.3864822387695,
+              35.9643402099609,
+              225.90559387207
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              39.3864822387695,
+              35.9643402099609,
+              225.90559387207
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -72.2719573974609,
+              36.1200523376465,
+              120.670310974121
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [
+              72.2719573974609,
+              36.1200523376465,
+              120.670310974121
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -65.6753997802734,
+              18.8801727294922,
+              -3.06117129325867
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              65.6753997802734,
+              18.8801727294922,
+              -3.06117129325867
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -16.5550975799561,
+              -19.6180381774902,
+              -254.852249145508
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 150
+          },
+          {
+            "position": [
+              16.5550975799561,
+              -19.6180381774902,
+              -254.852249145508
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 6.7,
+            "damage_coeff": 1.5,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 210
+          }
+        ]
+      }
+    },
+      #---------------------------------- ship data - tsn_mine_layer - Excelsior Refit Class --------------------------------
+    {
+      #--- Excelsior Refit 469m, scaled to 678
+      "key": "tsn_mine_layer",
       "name": "Excelsior Refit Class",
       "origin": "Terran",
       "side": "TSN",
       "artfileroot": "FED_ExcelsiorRefit",
-      "meshscale": 0.4,
-      "radarscale": 1.0,
+      "meshscale": 0.276800006628036,
+      "radarscale": 0.846,
       "exclusionradius": 95.0,
       "meshrotate": 0,
       "long_desc": "Excelsior Class Battleship (Refit)^Captain Grade^A major refit to an already capable warship^8 beams, 4 Torpedo tubes.",
@@ -1015,7 +1710,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.0, 30.629, 152.645 ],
+            "position": [
+              0.0,
+              43.9700889587402,
+              219.132659912109
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1025,7 +1724,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 0.0, 30.629, 152.645 ],
+            "position": [
+              0.0,
+              43.9700889587402,
+              219.132659912109
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1035,7 +1738,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -27.097, 30.421, 140.022 ],
+            "position": [
+              -38.8996543884277,
+              43.6714897155762,
+              201.011459350586
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1045,7 +1752,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ 27.097, 30.421, 140.022 ],
+            "position": [
+              38.8996543884277,
+              43.6714897155762,
+              201.011459350586
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1055,7 +1766,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ -35.116, 30.420, 111.336 ],
+            "position": [
+              -50.4114952087402,
+              43.6700553894043,
+              159.830673217773
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1065,7 +1780,11 @@
             "barrel_angle": 60
           },
           {
-            "position": [ 35.116, 30.420, 111.336 ],
+            "position": [
+              50.4114952087402,
+              43.6700553894043,
+              159.830673217773
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1075,7 +1794,11 @@
             "barrel_angle": 300
           },
           {
-            "position": [ -18.839, -6.779, -150.142 ],
+            "position": [
+              -27.044713973999,
+              -9.73173236846924,
+              -215.539413452148
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1085,7 +1808,11 @@
             "barrel_angle": 210
           },
           {
-            "position": [ 18.839, -6.779, -150.142 ],
+            "position": [
+              27.044713973999,
+              -9.73173236846924,
+              -215.539413452148
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 11.03,
@@ -1097,16 +1824,16 @@
         ]
       }
     },
+      #---------------------------------- ship data - tsn_battle_cruiser - Ambassador Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
-      #--- Ambassador 526m
+      #--- Ambassador 526m, scaled to 710
       "key": "tsn_battle_cruiser",
       "name": "Ambassador Class",
       "origin": "Terran",
       "side": "TSN",
       "artfileroot": "FED_Ambassador",
-      "meshscale": 0.4,
-      "radarscale": 1.0,
+      "meshscale": 0.296400010585785,
+      "radarscale": 0.87,
       "exclusionradius": 105.0,
       "meshrotate": 0,
       "long_desc": "Ambassador Class Advanced Heavy Cruiser^Captain Grade^A next-generation heavy cruiser design^12 beams, 4 Torpedo tubes.",
@@ -1145,27 +1872,39 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -28.301, 47.441, 209.940 ],
+            "position": [
+              -38.7381820678711,
+              64.9368591308594,
+              287.364196777344
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 340
           },
           {
-            "position": [ 28.301, 47.441, 209.940 ],
+            "position": [
+              38.7381820678711,
+              64.9368591308594,
+              287.364196777344
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 20
           },
           {
-            "position": [ -14.540, 17.916, 166.455 ],
+            "position": [
+              -19.9022350311279,
+              24.5232772827148,
+              227.842269897461
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
@@ -1175,7 +1914,11 @@
             "barrel_angle": 350
           },
           {
-            "position": [ 14.540, 17.916, 166.455 ],
+            "position": [
+              19.9022350311279,
+              24.5232772827148,
+              227.842269897461
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
@@ -1185,7 +1928,11 @@
             "barrel_angle": 10
           },
           {
-            "position": [ -69.416, 17.604, 98.397 ],
+            "position": [
+              -95.0160598754883,
+              24.0962142944336,
+              134.685028076172
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
@@ -1195,7 +1942,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 69.416, 17.604, 98.397 ],
+            "position": [
+              95.0160598754883,
+              24.0962142944336,
+              134.685028076172
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
@@ -1205,27 +1956,39 @@
             "barrel_angle": 90
           },
           {
-            "position": [ -115.782, 47.255, 97.596 ],
+            "position": [
+              -158.481460571289,
+              64.6822662353516,
+              133.588623046875
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 115.782, 47.255, 97.596 ],
+            "position": [
+              158.481460571289,
+              64.6822662353516,
+              133.588623046875
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ -40.906, 47.233, -10.259 ],
+            "position": [
+              -55.9918022155762,
+              64.6521530151367,
+              -14.0424365997314
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
@@ -1235,7 +1998,11 @@
             "barrel_angle": 200
           },
           {
-            "position": [ 40.906, 47.233, -10.259 ],
+            "position": [
+              55.9918022155762,
+              64.6521530151367,
+              -14.0424365997314
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
@@ -1245,38 +2012,291 @@
             "barrel_angle": 160
           },
           {
-            "position": [ -108.239, -19.249, -160.029 ],
+            "position": [
+              -148.156661987305,
+              -26.3478775024414,
+              -219.046417236328
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 210
           },
           {
-            "position": [ 108.239, -19.249, -160.029 ],
+            "position": [
+              148.156661987305,
+              -26.3478775024414,
+              -219.046417236328
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.56,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 150
           }
         ]
       }
     },
+      #---------------------------------- ship data - tsn_missile_cruiser - Nebula Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
-      #--- Galaxyh 642m 
+      #--- Nebula 440m, scaled to 661
+      "key": "tsn_missile_cruiser",
+      "name": "Nebula Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_Nebula",
+      "meshscale": 0.266200006008148,
+      "radarscale": 0.833,
+      "exclusionradius": 90.0,
+      "meshrotate": 0,
+      "long_desc": "Nebula Class Heavy Missile Cruiser^Captain Grade^A next-generation heavy missile cruiser design^14 beams, 4 Torpedo tubes.",
+      "tubecount": 4,
+      "torpedostart": [
+        {
+          "Homing": 60
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 16,
+      "internalmaph": 15,
+      "internalsymmetry": 1,
+      "turn_rate": 0.96,
+      "speed_coeff": 1.13,
+      "scan_strength_coeff": 1.25,
+      "ship_energy_cost": 1.08,
+      "warp_energy_cost": 0.9,
+      "jump_energy_cost": 2.0,
+      "roles": "ship,warship,defender,heavy,patrol",
+      "shields": [
+        900,
+        900
+      ],
+      "hullpoints": 10,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -111.598976135254,
+              61.124568939209,
+              392.738006591797
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              111.598976135254,
+              61.124568939209,
+              392.738006591797
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -226.201171875,
+              60.9517974853516,
+              283.128173828125
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [
+              226.201171875,
+              60.9517974853516,
+              283.128173828125
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -204.238327026367,
+              60.9698257446289,
+              156.143630981445
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              204.238327026367,
+              60.9698257446289,
+              156.143630981445
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -100.588272094727,
+              20.6347618103027,
+              365.605621337891
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              100.588272094727,
+              20.6347618103027,
+              365.605621337891
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -197.49577331543,
+              20.6588001251221,
+              273.914276123047
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [
+              197.49577331543,
+              20.6588001251221,
+              273.914276123047
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -180.672485351562,
+              20.6497859954834,
+              174.177825927734
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              180.672485351562,
+              20.6497859954834,
+              174.177825927734
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 11.28,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -177.852569580078,
+              11.9106216430664,
+              -50.4744148254395
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.56,
+            "damage_coeff": 1.62,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 210
+          },
+          {
+            "position": [
+              177.852569580078,
+              11.9106216430664,
+              -50.4744148254395
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.56,
+            "damage_coeff": 1.62,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 150
+          }
+        ]
+      }
+    },
+      #---------------------------------- ship data - tsn_battleship - Galaxy Class --------------------------------
+    {
+      #--- Galaxy 642m, scaled to 776
       "key": "tsn_battleship",
       "name": "Galaxy Class",
       "origin": "Terran",
       "side": "TSN",
       "artfileroot": "FED_Galaxy",
-      "meshscale": 0.4,
-      "radarscale": 1.0,
+      "meshscale": 0.331099987030029,
+      "radarscale": 0.914,
       "exclusionradius": 130.0,
       "meshrotate": 0,
       "long_desc": "Galaxy Class Explorer^Captain Grade^A next-generation exploration cruiser design^16 beams, 4 Torpedo tubes.",
@@ -1314,128 +2334,154 @@
       "hullpoints": 11,
       "hull_port_sets": {
         "beam Primary Beams": [
+          # --------------------- SAUCER SECTION -----------------------
           {
-            "position": [ -69.952, 69.502, 262.827 ],
+            "position": [
+              -84.5884017944336,
+              84.0442352294922,
+              317.819549560547
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ 69.952, 69.502, 262.827 ],
+            "position": [
+              84.5884017944336,
+              84.0442352294922,
+              317.819549560547
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ -99.954, 41.361, 224.614 ],
+            "position": [
+              -120.867858886719,
+              50.0151596069336,
+              271.611053466797
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 315
           },
           {
-            "position": [ 99.954, 41.361, 224.614 ],
+            "position": [
+              120.867858886719,
+              50.0151596069336,
+              271.611053466797
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 45
           },
           {
-            "position": [ -120.178, 42.211, 86.712 ],
+            "position": [
+              -145.323425292969,
+              51.0430068969727,
+              104.855163574219
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 225
           },
           {
-            "position": [ 120.178, 42.211, 86.712 ],
+            "position": [
+              145.323425292969,
+              51.0430068969727,
+              104.855163574219
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 135
           },
           {
-            "position": [ -169.788, 69.523, 160.754 ],
+            "position": [
+              -205.313552856445,
+              84.0696334838867,
+              194.38932800293
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 169.788, 69.523, 160.754 ],
+            "position": [
+              205.313552856445,
+              84.0696334838867,
+              194.38932800293
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 13.71,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ -115.461, -34.120, -237.261 ],
+            "position": [
+              -141.264007568359,
+              84.0914001464844,
+              68.4390563964844
+            ],
             "color": "red",
             "arccolor": "#090",
-            "cycle_time": 17.4,
-            "damage_coeff": 1.82,
-            "range": 1540,
-            "arcwidth": 120,
-            "barrel_angle": 240
-          },
-          {
-            "position": [ 115.461, -34.120, -237.261 ],
-            "color": "red",
-            "arccolor": "#090",
-            "cycle_time": 17.4,
-            "damage_coeff": 1.82,
-            "range": 1540,
-            "arcwidth": 120,
-            "barrel_angle": 120
-          },
-          {
-            "position": [ -116.821, 69.541, 56.597 ],
-            "color": "red",
-            "arccolor": "#090",
-            "cycle_time": 17.4,
-            "damage_coeff": 1.82,
-            "range": 1540,
-            "arcwidth": 120,
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
             "barrel_angle": 210
           },
           {
-            "position": [ -116.821, 69.541, 56.597 ],
+            "position": [
+              141.264007568359,
+              84.0914001464844,
+              68.4390563964844
+            ],
             "color": "red",
             "arccolor": "#090",
-            "cycle_time": 17.4,
-            "damage_coeff": 1.82,
-            "range": 1540,
-            "arcwidth": 120,
+            "cycle_time": 13.72,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
             "barrel_angle": 150
           },
+          # ---------------------- STARDRIVE SECTION --------------------
           {
-            "position": [ -34.414, -46.171, -52.452 ],
+            "position": [
+              -36.7933883666992,
+              -57.2560577392578,
+              -55.1398963928223
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 17.4,
@@ -1445,7 +2491,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 34.414, -46.171, -52.452 ],
+            "position": [
+              36.7933883666992,
+              -57.2560577392578,
+              -55.1398963928223
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 17.4,
@@ -1455,38 +2505,74 @@
             "barrel_angle": 90
           },
           {
-            "position": [ -18.689, -25.988, -260.189 ],
+            "position": [
+              -141.569961547852,
+              -38.4427871704102,
+              -280.186981201172
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 17.4,
             "damage_coeff": 1.82,
             "range": 1540,
-            "arcwidth": 120,
+            "arcwidth": 90,
+            "barrel_angle": 240
+          },
+          {
+            "position": [
+              141.569961547852,
+              -38.4427871704102,
+              -280.186981201172
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 17.4,
+            "damage_coeff": 1.82,
+            "range": 1540,
+            "arcwidth": 90,
+            "barrel_angle": 120
+          },
+          {
+            "position": [
+              -22.5993900299072,
+              -31.425594329834,
+              -314.629577636719
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 17.4,
+            "damage_coeff": 1.82,
+            "range": 1540,
+            "arcwidth": 90,
             "barrel_angle": 195
           },
           {
-            "position": [ 18.689, -25.988, -260.189 ],
+            "position": [
+              22.5993900299072,
+              -31.425594329834,
+              -314.629577636719
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 17.4,
             "damage_coeff": 1.82,
             "range": 1540,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 165
           }
         ]
       }
     },
+      #---------------------------------- ship data - tsn_carrier - Akira Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
-      #--- Akira 440m
+      #--- Akira 440m, scaled to 661
       "key": "tsn_carrier",
       "name": "Akira Class",
       "side": "TSN",
       "origin": "Terran",
       "artfileroot": "FED_Akira",
-      "meshscale": 0.4,
-      "radarscale": 1.0,
+      "meshscale": 0.266200006008148,
+      "radarscale": 0.833,
       "exclusionradius": 95.0,
       "meshrotate": 0,
       "long_desc": "Akira Class Advanced Escort^Captain Grade^A next-generation heavy escort cruiser design^12 beams, 4 Torpedo tubes.",
@@ -1510,7 +2596,7 @@
       "internalmapw": 17,
       "internalmaph": 15,
       "internalsymmetry": 1,
-      "turn_rate": .86,
+      "turn_rate": ".86,",
       "speed_coeff": 1.23,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1.13,
@@ -1525,7 +2611,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -41.689, -15.792, 193.735 ],
+            "position": [
+              -62.6314239501953,
+              -23.7250938415527,
+              291.057556152344
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
@@ -1535,7 +2625,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 41.689, -15.792, 193.735 ],
+            "position": [
+              62.6314239501953,
+              -23.7250938415527,
+              291.057556152344
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
@@ -1545,118 +2639,593 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -90.283, -16.214, 131.480 ],
+            "position": [
+              -135.636566162109,
+              -24.3590869903564,
+              197.528823852539
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ 90.283, -16.214, 131.480 ],
+            "position": [
+              135.636566162109,
+              -24.3590869903564,
+              197.528823852539
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ -100.061, 0.187, 83.147 ],
+            "position": [
+              -150.326522827148,
+              0.280939251184464,
+              124.915809631348
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 100.061, 0.187, 83.147 ],
+            "position": [
+              150.326522827148,
+              0.280939251184464,
+              124.915809631348
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ -48.822, 31.496, -125.027 ],
+            "position": [
+              -73.3476791381836,
+              47.3179817199707,
+              -187.834182739258
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 240
           },
           {
-            "position": [ 48.822, 31.496, -125.027 ],
+            "position": [
+              73.3476791381836,
+              47.3179817199707,
+              -187.834182739258
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 120
           },
           {
-            "position": [ -78.508, 0.304, 168.013 ],
+            "position": [
+              -117.946411132812,
+              0.456714063882828,
+              252.414154052734
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 78.508, 0.304, 168.013 ],
+            "position": [
+              117.946411132812,
+              0.456714063882828,
+              252.414154052734
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -8.539, 41.855, -116.518 ],
+            "position": [
+              -12.8285570144653,
+              62.8808135986328,
+              -175.050689697266
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 210
           },
           {
-            "position": [ 8.539, 41.855, -116.518 ],
+            "position": [
+              12.8285570144653,
+              62.8808135986328,
+              -175.050689697266
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14,
             "damage_coeff": 1.8,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 150
           }
         ]
       }
     },
+      #---------------------------------- ship data - tsn_destroyer - Defiant Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
-      #--- Sovereign 685m
+      #--- Defiant, ship 120m, scaled to 480
+      "key": "tsn_destroyer",
+      "name": "Defiant Class",
+      "side": "TSN",
+      "origin": "Terran",
+      "artfileroot": "FED_Defiant",
+      "meshscale": 0.1,
+      "radarscale": 0.625,
+      "exclusionradius": 50.0,
+      "meshrotate": 0,
+      "long_desc": "Defiant Class Escort^Captain Grade^The Federation's first 'Escort' vessel comissioned after Wolf 359^4 Pulse Beams, 4 Beams, 2 Torpedo tubes.",
+      "tubecount": 2,
+      "torpedostart": [
+        {
+          "Homing": 24
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "baycount": 1,
+      "internalmapscale": 1.0,
+      "internalmapw": 16,
+      "internalmaph": 15,
+      "internalsymmetry": 1,
+      "turn_rate": 1.46,
+      "speed_coeff": 1.83,
+      "scan_strength_coeff": 1,
+      "ship_energy_cost": 0.85,
+      "warp_energy_cost": 0.7,
+      "jump_energy_cost": 2.0,
+      "roles": "ship,warship,medium",
+      "shields": [
+        1750,
+        1750
+      ],
+      "hullpoints": 4,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -133.504,
+              14.741,
+              31.557
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 0.98,
+            "damage_coeff": 0.56,
+            "range": 1260,
+            "arcwidth": 30,
+            "barrel_angle": 345
+          },
+          {
+            "position": [
+              133.504,
+              14.741,
+              31.557
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 0.98,
+            "damage_coeff": 0.56,
+            "range": 1260,
+            "arcwidth": 30,
+            "barrel_angle": 15
+          },
+          {
+            "position": [
+              -116.095,
+              -27.258,
+              5.233
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 0.98,
+            "damage_coeff": 0.56,
+            "range": 1260,
+            "arcwidth": 30,
+            "barrel_angle": 350
+          },
+          {
+            "position": [
+              116.095,
+              -27.258,
+              5.233
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 0.98,
+            "damage_coeff": 0.56,
+            "range": 1260,
+            "arcwidth": 30,
+            "barrel_angle": 10
+          },
+          {
+            "position": [
+              0.0,
+              -9.345,
+              97.009
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.85,
+            "damage_coeff": 1.67,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              24.998,
+              -16.531,
+              -6.295
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.85,
+            "damage_coeff": 1.67,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -24.998,
+              -16.531,
+              -6.295
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.85,
+            "damage_coeff": 1.67,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              0.0,
+              -7.811,
+              -224.486
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 7.85,
+            "damage_coeff": 1.67,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 180
+          }
+        ]
+      }
+    },
+      #---------------------------------- ship data - tsn_heavy_cruiser - Luna Class --------------------------------
+    {
+      #--- Titan 453m, scaled to 669
+      "key": "tsn_heavy_cruiser",
+      "name": "Luna Class",
+      "side": "TSN",
+      "origin": "Terran",
+      "artfileroot": "FED_Luna",
+      "meshscale": 0.270999997854233,
+      "radarscale": 0.839,
+      "exclusionradius": 95.0,
+      "meshrotate": 0,
+      "long_desc": "Luna Class Exploration Cruiser^Admiral Class^A fast exploration cruiser^16 beams, 4 Torpedo tubes.",
+      "tubecount": 4,
+      "torpedostart": [
+        {
+          "Homing": 40
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "internalmapscale": 1.0,
+      "internalmapw": 13,
+      "internalmaph": 22,
+      "internalsymmetry": 1,
+      "turn_rate": ".81,",
+      "speed_coeff": 1.44,
+      "scan_strength_coeff": 1.2,
+      "ship_energy_cost": 1.06,
+      "warp_energy_cost": 1.0,
+      "jump_energy_cost": 2.0,
+      "roles": "ship,warship,heavy,patrol,exploration",
+      "shields": [
+        1440,
+        1440
+      ],
+      "hullpoints": 9,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          {
+            "position": [
+              -41.227,
+              23.8,
+              295.825
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              41.227,
+              23.8,
+              295.825
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -46.505,
+              3.833,
+              294.173
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 345
+          },
+          {
+            "position": [
+              46.505,
+              3.833,
+              294.173
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 15
+          },
+          {
+            "position": [
+              -23.2518539428711,
+              -38.7951545715332,
+              19.492977142334
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 14,
+            "damage_coeff": 1.8,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              23.2518539428711,
+              -38.7951545715332,
+              19.492977142334
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 14,
+            "damage_coeff": 1.8,
+            "range": 1400,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -93.676,
+              25.365,
+              233.715
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 315
+          },
+          {
+            "position": [
+              93.676,
+              25.365,
+              233.715
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 45
+          },
+          {
+            "position": [
+              -108.379,
+              25.475,
+              149.374
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 300
+          },
+          {
+            "position": [
+              108.379,
+              25.475,
+              149.374
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 60
+          },
+          {
+            "position": [
+              -108.281791687012,
+              3.48695182800293,
+              200.396835327148
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 275
+          },
+          {
+            "position": [
+              108.281791687012,
+              3.48695182800293,
+              200.396835327148
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 75
+          },
+          {
+            "position": [
+              -80.3426132202148,
+              24.9780521392822,
+              63.7626953125
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 225
+          },
+          {
+            "position": [
+              80.3426132202148,
+              24.9780521392822,
+              63.7626953125
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 135
+          },
+          {
+            "position": [
+              -86.0755767822266,
+              2.57652831077576,
+              76.1119995117188
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              86.0755767822266,
+              2.57652831077576,
+              76.1119995117188
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.57,
+            "damage_coeff": 1.92,
+            "range": 1680,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          }
+        ]
+      }
+    },
+      #---------------------------------- ship data - tsn_dreadnought - Sovereign Class --------------------------------
+    {
+      #--- Sovereign 685m, scaled to 800
       "key": "tsn_dreadnought",
       "name": "Sovereign Class",
       "origin": "Terran",
       "side": "TSN",
       "artfileroot": "FED_Sovereign",
-      "meshscale": 0.4,
-      "radarscale": 1.0,
+      "meshscale": 0.342500001192093,
+      "radarscale": 0.928,
       "exclusionradius": 140.0,
       "meshrotate": 0,
       "long_desc": "Sovereign Class Heavy Escort^Admiral Grade^A next-generation heavy escort cruiser design^16 beams, 6 Torpedo tubes.",
@@ -1695,7 +3264,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -17.408, 38.684, 295.572 ],
+            "position": [
+              -20.3404903411865,
+              45.2005653381348,
+              345.363006591797
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1705,7 +3278,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 17.408, 38.684, 295.572 ],
+            "position": [
+              20.3404903411865,
+              45.2005653381348,
+              345.363006591797
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1715,7 +3292,11 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -28.535, 21.589, 329.776 ],
+            "position": [
+              -33.3419036865234,
+              25.2258071899414,
+              385.328887939453
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1725,7 +3306,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ 28.535, 21.589, 329.776 ],
+            "position": [
+              33.3419036865234,
+              25.2258071899414,
+              385.328887939453
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1735,7 +3320,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ -61.879, 38.540, 231.686 ],
+            "position": [
+              -72.3029174804688,
+              45.0323104858398,
+              270.714996337891
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1745,7 +3334,11 @@
             "barrel_angle": 305
           },
           {
-            "position": [ 61.879, 38.540, 231.686 ],
+            "position": [
+              72.3029174804688,
+              45.0323104858398,
+              270.714996337891
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1755,67 +3348,95 @@
             "barrel_angle": 55
           },
           {
-            "position": [ -106.964, 28.355, 219.273 ],
+            "position": [
+              -124.982772827148,
+              25.5,
+              256.2109375
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 106.964, 28.355, 219.273 ],
+            "position": [
+              124.982772827148,
+              25.5,
+              256.2109375
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -64.063, 38.425, 159.050 ],
+            "position": [
+              -74.8548278808594,
+              44.8979377746582,
+              185.843002319336
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 64.063, 38.425, 159.050 ],
+            "position": [
+              74.8548278808594,
+              44.8979377746582,
+              185.843002319336
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ -82.258, 27.665, 79.430 ],
+            "position": [
+              -96.1148910522461,
+              25.5,
+              92.8104934692383
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 240
           },
           {
-            "position": [ 82.258, 27.665, 79.430 ],
+            "position": [
+              96.1148910522461,
+              25.5,
+              92.8104934692383
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 120
           },
           {
-            "position": [ -11.785, -15.545, 69.178 ],
+            "position": [
+              -13.7702589035034,
+              -18.1636562347412,
+              80.8314819335938
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1825,7 +3446,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 11.785, -15.545, 69.178 ],
+            "position": [
+              13.7702589035034,
+              -18.1636562347412,
+              80.8314819335938
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
@@ -1835,30 +3460,372 @@
             "barrel_angle": 90
           },
           {
-            "position": [ -40.003, 0.631, -141.592 ],
+            "position": [
+              -46.7417602539062,
+              0.737295985221863,
+              -165.444076538086
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 195
           },
           {
-            "position": [ 40.003, 0.631, -141.592 ],
+            "position": [
+              46.7417602539062,
+              0.737295985221863,
+              -165.444076538086
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 14.82,
             "damage_coeff": 2.0,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 165
           }
         ]
       }
     },
+      #---------------------------------- ship data - tsn_juggernaut - Galaxy X Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
+      #--- Galaxyh 642m, scaled to 776
+      "key": "tsn_juggernaut",
+      "name": "Galaxy Dreadnought Class",
+      "origin": "Terran",
+      "side": "TSN",
+      "artfileroot": "FED_GalaxyX",
+      "meshscale": 0.331099987030029,
+      "radarscale": 0.914,
+      "exclusionradius": 130.0,
+      "meshrotate": 0,
+      "long_desc": "Galaxy Class Dreadnought^Admiral Grade^A futuristic refit into a heavy weapons platform^16 beams, 2 pulse beams, 1 mega beam, 6 Torpedo tubes.",
+      "tubecount": 4,
+      "torpedostart": [
+        {
+          "Homing": 60
+        },
+        {
+          "Nuke": 0
+        },
+        {
+          "EMP": 0
+        },
+        {
+          "Mine": 0
+        }
+      ],
+      "baycount": 2,
+      "internalmapscale": 1.0,
+      "internalmapw": 22,
+      "internalmaph": 15,
+      "internalsymmetry": 1,
+      "turn_rate": 1.04,
+      "speed_coeff": 1.35,
+      "scan_strength_coeff": 1.1,
+      "ship_energy_cost": 1.08,
+      "warp_energy_cost": 1.3,
+      "jump_energy_cost": 2.0,
+      "roles": "ship,warship,heavy,carrier",
+      "shields": [
+        2880,
+        2880
+      ],
+      "hullpoints": 16,
+      "hull_port_sets": {
+        "beam Primary Beams": [
+          # -------------- Spinal Lance Phaser - 4x with long recharge -----------------
+          {
+            "position": [
+              -1.82320654392242,
+              39.6028671264648,
+              274.5
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 15.22,
+            "damage_coeff": 8.0,
+            "range": 1680,
+            "arcwidth": 15,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              1.82320654392242,
+              39.6028671264648,
+              274.5
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 15.22,
+            "damage_coeff": 8.0,
+            "range": 1680,
+            "arcwidth": 15,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              -1.8738511800766,
+              37.1805686950684,
+              273.5
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 15.22,
+            "damage_coeff": 8.0,
+            "range": 1680,
+            "arcwidth": 15,
+            "barrel_angle": 0
+          },
+          {
+            "position": [
+              1.8738511800766,
+              37.1805686950684,
+              273.5
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 15.22,
+            "damage_coeff": 8.0,
+            "range": 1680,
+            "arcwidth": 15,
+            "barrel_angle": 0
+          },
+          # ------------------- Mega Phasers -----------------------
+          {
+            "position": [
+              -87.764,
+              109.332,
+              212.617
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 0.79,
+            "damage_coeff": 0.56,
+            "range": 1260,
+            "arcwidth": 30,
+            "barrel_angle": 345
+          },
+          {
+            "position": [
+              87.764,
+              109.332,
+              212.617
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 0.79,
+            "damage_coeff": 0.56,
+            "range": 1260,
+            "arcwidth": 30,
+            "barrel_angle": 15
+          },
+          # --------------- Saucer Phasers -----------------------
+          {
+            "position": [
+              -82.015,
+              84.607,
+              315.215
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 330
+          },
+          {
+            "position": [
+              82.015,
+              84.607,
+              315.215
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 30
+          },
+          {
+            "position": [
+              -119.418,
+              49.742,
+              272.628
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 315
+          },
+          {
+            "position": [
+              119.418,
+              49.742,
+              272.628
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 45
+          },
+          {
+            "position": [
+              -148.448059082031,
+              52.140495300293,
+              107.109680175781
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 225
+          },
+          {
+            "position": [
+              148.448059082031,
+              52.140495300293,
+              107.109680175781
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 135
+          },
+          {
+            "position": [
+              -201.394,
+              84.179,
+              193.081
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              -201.394,
+              84.179,
+              193.081
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 90
+          },
+          {
+            "position": [
+              -144.301376342773,
+              85.8994674682617,
+              69.9105911254883
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 210
+          },
+          {
+            "position": [
+              144.301376342773,
+              85.8994674682617,
+              69.9105911254883
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 13.71,
+            "damage_coeff": 1.52,
+            "range": 1470,
+            "arcwidth": 90,
+            "barrel_angle": 150
+          },
+          # ------------ Stardrive Phasers -----------------
+          {
+            "position": [
+              -160.884399414062,
+              -27.1405811309814,
+              -286.012451171875
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 17.4,
+            "damage_coeff": 1.82,
+            "range": 1540,
+            "arcwidth": 90,
+            "barrel_angle": 240
+          },
+          {
+            "position": [
+              160.884399414062,
+              -27.1405811309814,
+              -286.012451171875
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 17.4,
+            "damage_coeff": 1.82,
+            "range": 1540,
+            "arcwidth": 90,
+            "barrel_angle": 120
+          },
+          {
+            "position": [
+              -37.5844917297363,
+              -58.487133026123,
+              -56.3254737854004
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 17.4,
+            "damage_coeff": 1.82,
+            "range": 1540,
+            "arcwidth": 150,
+            "barrel_angle": 270
+          },
+          {
+            "position": [
+              37.5844917297363,
+              -58.487133026123,
+              -56.3254737854004
+            ],
+            "color": "red",
+            "arccolor": "#090",
+            "cycle_time": 17.4,
+            "damage_coeff": 1.82,
+            "range": 1540,
+            "arcwidth": 150,
+            "barrel_angle": 90
+          }
+        ]
+      }
+    },
+      #---------------------------------- ship data - tsn_shuttle - Danube Class --------------------------------
+    {
       #--- Danube ~23m, 10x model
       "key": "tsn_shuttle",
       "name": "Danube",
@@ -1905,7 +3872,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.0, -12.060, 59.110 ],
+            "position": [
+              0.0,
+              -12.06,
+              59.11
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 2.33,
@@ -1917,8 +3888,8 @@
         ]
       }
     },
+      #---------------------------------- ship data - tsn_fighter - Peregrine Class --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
       #--- length est 25m, 10x scale model
       "key": "tsn_fighter",
       "name": "Peregrine",
@@ -1965,7 +3936,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -4.152, -9.699, 72.756 ],
+            "position": [
+              -4.152,
+              -9.699,
+              72.756
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 2.1,
@@ -1975,7 +3950,11 @@
             "barrel_angle": 355
           },
           {
-            "position": [ 4.152, -9.699, 72.756 ],
+            "position": [
+              4.152,
+              -9.699,
+              72.756
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 2.1,
@@ -1987,8 +3966,8 @@
         ]
       }
     },
+      #---------------------------------- ship data - tsn_bomber - Danube Class + rollbar --------------------------------
     {
-      #---------------------------------- ship data --------------------------------
       #--- Danube ~23m, 10x model
       "key": "tsn_bomber",
       "name": "Danube Bomber",
@@ -2035,7 +4014,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.0, -12.060, 59.110 ],
+            "position": [
+              0.0,
+              -12.06,
+              59.11
+            ],
             "color": "red",
             "arccolor": "#090",
             "cycle_time": 2.13,
@@ -2046,11 +4029,10 @@
           }
         ]
       }
-
     },
-    #---------------------------------- ship data --------------------------------
-    # Raider scaled to ~120m, but file is 4x scale to be reasonably sized
+      #---------------------------------- ship data - kralien_cruiser - Kazon Raider --------------------------------
     {
+      # Raider scaled to ~120m, but file is 4x scale to be reasonably sized
       "key": "kralien_cruiser",
       "name": "Raider",
       "origin": "Kralien",
@@ -2081,11 +4063,11 @@
           "Mine": 0
         }
       ],
-       "internalmapscale": 1.0,
+      "internalmapscale": 1.0,
       "internalmapw": 17,
       "internalmaph": 16,
       "internalsymmetry": 1,
-      "turn_rate": .73,
+      "turn_rate": ".73,",
       "speed_coeff": 1.37,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1.25,
@@ -2095,31 +4077,39 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -27.350, 22.363, 193.968 ],
+            "position": [
+              -27.35,
+              22.363,
+              193.968
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.78,
             "damage_coeff": 1.4,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 27.350, 22.363, 193.968 ],
+            "position": [
+              27.35,
+              22.363,
+              193.968
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.78,
             "damage_coeff": 1.4,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Predator arbitrarily 413m
+      #---------------------------------- ship data - kralien_battleship - Kazon Cruiser --------------------------------
     {
+      #--- Predator arbitrarily 413m
       "key": "kralien_battleship",
       "name": "Cruiser",
       "origin": "Kralien",
@@ -2165,47 +4155,67 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -33.887, -47.771, 123.803 ],
+            "position": [
+              -33.887,
+              -47.771,
+              123.803
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 13.88,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ 33.887, -47.771, 123.803 ],
+            "position": [
+              33.887,
+              -47.771,
+              123.803
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 13.88,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ -45.512, 32.530, -39.068 ],
+            "position": [
+              -45.512,
+              32.53,
+              -39.068
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 13.88,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 45.512, 32.530, -39.068 ],
+            "position": [
+              45.512,
+              32.53,
+              -39.068
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 13.88,
             "damage_coeff": 1.52,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -42.296, 16.890, -55.431 ],
+            "position": [
+              -42.296,
+              16.89,
+              -55.431
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 13.88,
@@ -2215,7 +4225,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 42.296, 16.890, -55.431 ],
+            "position": [
+              42.296,
+              16.89,
+              -55.431
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 13.88,
@@ -2227,9 +4241,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Carrier 1800m, scaled to 900m
+      #---------------------------------- ship data - kralien_dreadnought - Kazon Carrier --------------------------------
     {
+      #--- Carrier 1800m, scaled to 900m
       "key": "kralien_dreadnought",
       "name": "Carrier",
       "origin": "Kralien",
@@ -2276,7 +4290,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.00, -57.852, 401.464 ],
+            "position": [
+              0.0,
+              -57.852,
+              401.464
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
@@ -2286,7 +4304,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 0.00, -129.483, 295.953 ],
+            "position": [
+              0.0,
+              -129.483,
+              295.953
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
@@ -2296,69 +4318,93 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -71.123, 31.577, 184.178 ],
+            "position": [
+              -71.123,
+              31.577,
+              184.178
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
             "damage_coeff": 3.56,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 71.123, 31.577, 184.178 ],
+            "position": [
+              71.123,
+              31.577,
+              184.178
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
             "damage_coeff": 3.56,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -69.317, 21.257, -149.663 ],
+            "position": [
+              -69.317,
+              21.257,
+              -149.663
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
             "damage_coeff": 3.56,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 240
           },
           {
-            "position": [ 69.317, 21.257, -149.663 ],
+            "position": [
+              69.317,
+              21.257,
+              -149.663
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
             "damage_coeff": 3.56,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 120
           },
           {
-            "position": [ -6.409, 121.178, -7.646 ],
+            "position": [
+              -6.409,
+              121.178,
+              -7.646
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
             "damage_coeff": 3.56,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 6.409, 121.178, -7.646 ],
+            "position": [
+              6.409,
+              121.178,
+              -7.646
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 10.9,
             "damage_coeff": 3.56,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - kazon_fighter - Kazon Fighter --------------------------------
     {
       "key": "kazon_fighter",
       "name": "Fighter",
@@ -2404,7 +4450,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -27.350, 22.363, 193.968 ],
+            "position": [
+              -27.35,
+              22.363,
+              193.968
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 5,
@@ -2414,7 +4464,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -27.350, 22.363, 193.968 ],
+            "position": [
+              -27.35,
+              22.363,
+              193.968
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 5,
@@ -2426,9 +4480,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- T'Varo est 130m.  Model 520
+      #---------------------------------- ship data - torgoth_destroyer - Romulan T'Varo --------------------------------
     {
+      #--- T'Varo est 130m.  Model 520
       "key": "torgoth_destroyer",
       "name": "T'Varo",
       "origin": "Torgoth",
@@ -2474,27 +4528,39 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -182.766, 14.485, 87.381 ],
+            "position": [
+              -182.766,
+              14.485,
+              87.381
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 3.15,
             "damage_coeff": 0.92,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 315
           },
           {
-            "position": [ 182.766, 14.485, 87.381 ],
+            "position": [
+              182.766,
+              14.485,
+              87.381
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 3.15,
             "damage_coeff": 0.92,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 45
           },
           {
-            "position": [ -9.297, -14.844, 140.958 ],
+            "position": [
+              -9.297,
+              -14.844,
+              140.958
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 3.15,
@@ -2504,7 +4570,11 @@
             "barrel_angle": 355
           },
           {
-            "position": [ 9.297, -14.844, 140.958 ],
+            "position": [
+              9.297,
+              -14.844,
+              140.958
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 3.15,
@@ -2514,21 +4584,25 @@
             "barrel_angle": 5
           },
           {
-            "position": [ 0.0, -19.957, -176.853 ],
+            "position": [
+              0.0,
+              -19.957,
+              -176.853
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 3.15,
             "damage_coeff": 0.92,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 180
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Valdore 604m
+      #---------------------------------- ship data - torgoth_goliath - Romulan Mogai (Valdore) --------------------------------
     {
+      #--- Valdore 604m
       "key": "torgoth_goliath",
       "name": "Mogai",
       "origin": "Torgoth",
@@ -2574,7 +4648,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -46.513, -41.950, -12.734 ],
+            "position": [
+              -46.513,
+              -41.95,
+              -12.734
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 28.8,
@@ -2584,7 +4662,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 46.513, -41.950, -12.734 ],
+            "position": [
+              46.513,
+              -41.95,
+              -12.734
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 28.8,
@@ -2594,7 +4676,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 0.0, -40.651, 102.318 ],
+            "position": [
+              0.0,
+              -40.651,
+              102.318
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2604,7 +4690,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -3.0, -40.651, 102.318 ],
+            "position": [
+              -3.0,
+              -40.651,
+              102.318
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2614,7 +4704,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 3.0, -40.651, 102.318 ],
+            "position": [
+              3.0,
+              -40.651,
+              102.318
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2624,7 +4718,11 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -428.350, -98.983, 127.406 ],
+            "position": [
+              -428.35,
+              -98.983,
+              127.406
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2634,7 +4732,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 428.350, -98.983, 127.406 ],
+            "position": [
+              428.35,
+              -98.983,
+              127.406
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2644,7 +4746,11 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -433.581, -100.353, 127.406 ],
+            "position": [
+              -433.581,
+              -100.353,
+              127.406
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2654,7 +4760,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ 433.581, -100.353, 127.406 ],
+            "position": [
+              433.581,
+              -100.353,
+              127.406
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2664,7 +4774,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ -47.419, -41.937, -25.433 ],
+            "position": [
+              -47.419,
+              -41.937,
+              -25.433
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2674,7 +4788,11 @@
             "barrel_angle": 225
           },
           {
-            "position": [ 47.419, -41.937, -25.433 ],
+            "position": [
+              47.419,
+              -41.937,
+              -25.433
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2684,7 +4802,11 @@
             "barrel_angle": 135
           },
           {
-            "position": [ 0.0, 36.966, 5.134 ],
+            "position": [
+              0.0,
+              36.966,
+              5.134
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2694,7 +4816,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 0.0, 36.471, -108.495 ],
+            "position": [
+              0.0,
+              36.471,
+              -108.495
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 14.7,
@@ -2706,9 +4832,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- D'Deridex 1353m, model 645.
+      #---------------------------------- ship data - torgoth_leviathan - Romulan D'Deridex --------------------------------
     {
+      #--- D'Deridex 1353m, model 645.
       "key": "torgoth_leviathan",
       "name": "D'Deridex",
       "origin": "Torgoth",
@@ -2754,17 +4880,25 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.0, -28.531, 316.131 ],
+            "position": [
+              0.0,
+              -28.531,
+              316.131
+            ],
             "color": "green",
             "arccolor": "#500",
-            "cycle_time": 24.00,
+            "cycle_time": 24.0,
             "damage_coeff": 4,
             "range": 2800,
             "arcwidth": 15,
             "barrel_angle": 0
           },
           {
-            "position": [ 0.0, -28.531, 316.131 ],
+            "position": [
+              0.0,
+              -28.531,
+              316.131
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 24,
@@ -2774,7 +4908,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -30.501, 24.447, 225.861 ],
+            "position": [
+              -30.501,
+              24.447,
+              225.861
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2784,7 +4922,11 @@
             "barrel_angle": 315
           },
           {
-            "position": [ 30.501, 24.447, 225.861 ],
+            "position": [
+              30.501,
+              24.447,
+              225.861
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2794,7 +4936,11 @@
             "barrel_angle": 45
           },
           {
-            "position": [ -20.102, 86.531, 27.112 ],
+            "position": [
+              -20.102,
+              86.531,
+              27.112
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2804,7 +4950,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 20.102, 86.531, 27.112 ],
+            "position": [
+              20.102,
+              86.531,
+              27.112
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2814,7 +4964,11 @@
             "barrel_angle": 90
           },
           {
-            "position": [ -56.618, -55.719, -178.092 ],
+            "position": [
+              -56.618,
+              -55.719,
+              -178.092
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2824,7 +4978,11 @@
             "barrel_angle": 240
           },
           {
-            "position": [ 56.618, -55.719, -178.092 ],
+            "position": [
+              56.618,
+              -55.719,
+              -178.092
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2834,7 +4992,11 @@
             "barrel_angle": 120
           },
           {
-            "position": [ -13.415, 2.951, -302.864 ],
+            "position": [
+              -13.415,
+              2.951,
+              -302.864
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2844,7 +5006,11 @@
             "barrel_angle": 210
           },
           {
-            "position": [ 13.415, 2.951, -302.864 ],
+            "position": [
+              13.415,
+              2.951,
+              -302.864
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 11.94,
@@ -2856,9 +5022,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Reman Scimitar 890m
+      #---------------------------------- ship data - torgoth_behemoth - Romulan (Reman) Scimitar --------------------------------
     {
+      #--- Reman Scimitar 890m
       "key": "torgoth_behemoth",
       "name": "Scimitar",
       "origin": "Torgoth",
@@ -2904,7 +5070,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -8.250, 44.779, 344.519 ],
+            "position": [
+              -8.25,
+              44.779,
+              344.519
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 26,
@@ -2914,7 +5084,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 8.250, 44.779, 344.519 ],
+            "position": [
+              8.25,
+              44.779,
+              344.519
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 26,
@@ -2924,7 +5098,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -8.250, 44.779, 344.519 ],
+            "position": [
+              -8.25,
+              44.779,
+              344.519
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 26,
@@ -2934,7 +5112,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 8.250, 44.779, 344.519 ],
+            "position": [
+              8.25,
+              44.779,
+              344.519
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 26,
@@ -2944,7 +5126,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -177.627, 202.754, 53.101 ],
+            "position": [
+              -177.627,
+              202.754,
+              53.101
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -2954,7 +5140,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ 177.627, 202.754, 53.101 ],
+            "position": [
+              177.627,
+              202.754,
+              53.101
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -2964,7 +5154,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ -47.064, 128.231, 161.185 ],
+            "position": [
+              -47.064,
+              128.231,
+              161.185
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -2974,7 +5168,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 47.064, 128.231, 161.185 ],
+            "position": [
+              47.064,
+              128.231,
+              161.185
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -2984,7 +5182,11 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -52.012, 49.165, 371.857 ],
+            "position": [
+              -52.012,
+              49.165,
+              371.857
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -2994,7 +5196,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 52.012, 49.165, 371.857 ],
+            "position": [
+              52.012,
+              49.165,
+              371.857
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3004,7 +5210,11 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -68.274, 26.155, 379.182 ],
+            "position": [
+              -68.274,
+              26.155,
+              379.182
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3014,7 +5224,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ 68.274, 26.155, 379.182 ],
+            "position": [
+              68.274,
+              26.155,
+              379.182
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3024,7 +5238,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ -163.081, -3.703, 131.438 ],
+            "position": [
+              -163.081,
+              -3.703,
+              131.438
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3034,7 +5252,11 @@
             "barrel_angle": 300
           },
           {
-            "position": [ 163.081, -3.703, 131.438 ],
+            "position": [
+              163.081,
+              -3.703,
+              131.438
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3044,7 +5266,11 @@
             "barrel_angle": 60
           },
           {
-            "position": [ 0.00, 209.788, -155.863 ],
+            "position": [
+              0.0,
+              209.788,
+              -155.863
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3054,7 +5280,11 @@
             "barrel_angle": 180
           },
           {
-            "position": [ -239.448, 74.135, -307.432 ],
+            "position": [
+              -239.448,
+              74.135,
+              -307.432
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3064,7 +5294,11 @@
             "barrel_angle": 240
           },
           {
-            "position": [ 239.448, 74.135, -307.432 ],
+            "position": [
+              239.448,
+              74.135,
+              -307.432
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.97,
@@ -3076,7 +5310,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - arvonian_fighter - Cardassian Heideki --------------------------------
     {
       "key": "arvonian_fighter",
       "name": "Heideki",
@@ -3122,31 +5356,39 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -7.453, 2.582, 23.021 ],
+            "position": [
+              -7.453,
+              2.582,
+              23.021
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 2.13,
             "damage_coeff": 0.72,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 345
           },
           {
-            "position": [ 7.453, 2.582, 23.021 ],
+            "position": [
+              7.453,
+              2.582,
+              23.021
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 2.13,
             "damage_coeff": 0.72,
             "range": 1260,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 15
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Galor 481m
+      #---------------------------------- ship data - arvonian_destroyer - Cardassian Galor --------------------------------
     {
+      #--- Galor 481m
       "key": "arvonian_destroyer",
       "name": "Galor",
       "origin": "Arvonian",
@@ -3191,81 +5433,109 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -23.135, -15.434, 161.800 ],
+            "position": [
+              -23.135,
+              -15.434,
+              161.8
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 23.135, -15.434, 161.800 ],
+            "position": [
+              23.135,
+              -15.434,
+              161.8
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -23.135, -15.434, 161.800 ],
+            "position": [
+              -23.135,
+              -15.434,
+              161.8
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ -108.976, -3.655, 43.987 ],
+            "position": [
+              -108.976,
+              -3.655,
+              43.987
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ 108.976, -3.655, 43.987 ],
+            "position": [
+              108.976,
+              -3.655,
+              43.987
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 0
           },
           {
-            "position": [ -56.381, -27.779, 79.876 ],
+            "position": [
+              -56.381,
+              -27.779,
+              79.876
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ 56.381, -27.779, 79.876 ],
+            "position": [
+              56.381,
+              -27.779,
+              79.876
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 11.12,
             "damage_coeff": 1.25,
             "range": 1680,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Keldon 481m
+      #---------------------------------- ship data - arvonian_light_carrier - Cardassian Keldon --------------------------------
     {
+      #--- Keldon 481m
       "key": "arvonian_light_carrier",
       "name": "Keldon",
       "side": "Arvonian",
@@ -3301,7 +5571,7 @@
       "internalmapw": 16,
       "internalmaph": 17,
       "internalsymmetry": 1,
-      "turn_rate": 0.80,
+      "turn_rate": 0.8,
       "speed_coeff": 1.23,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1.19,
@@ -3311,77 +5581,109 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -23.135, -15.434, 161.800 ],
+            "position": [
+              -23.135,
+              -15.434,
+              161.8
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 23.135, -15.434, 161.800 ],
+            "position": [
+              23.135,
+              -15.434,
+              161.8
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -108.976, -3.655, 43.987 ],
+            "position": [
+              -108.976,
+              -3.655,
+              43.987
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 108.976, -3.655, 43.987 ],
+            "position": [
+              108.976,
+              -3.655,
+              43.987
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ 0.0, -24.559, -116.790 ],
+            "position": [
+              0.0,
+              -24.559,
+              -116.79
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 0
           },
           {
-            "position": [ -56.381, -27.779, 79.876 ],
+            "position": [
+              -56.381,
+              -27.779,
+              79.876
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ 56.381, -27.779, 79.876 ],
+            "position": [
+              56.381,
+              -27.779,
+              79.876
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
             "damage_coeff": 1.43,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ -117.669, -12.722, 48.362 ],
+            "position": [
+              -117.669,
+              -12.722,
+              48.362
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
@@ -3391,7 +5693,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ -117.669, -12.722, 48.362 ],
+            "position": [
+              -117.669,
+              -12.722,
+              48.362
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 10.81,
@@ -3403,9 +5709,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Damar Class ~595
+      #---------------------------------- ship data - arvonian_carrier - Cardassian Damar -------------------------------
     {
+      #--- Damar Class ~595
       "key": "arvonian_carrier",
       "name": "Damar",
       "origin": "Arvonian",
@@ -3451,7 +5757,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -31.309, -12.322, 261.072 ],
+            "position": [
+              -31.309,
+              -12.322,
+              261.072
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 25,
@@ -3461,7 +5771,11 @@
             "barrel_angle": 350
           },
           {
-            "position": [ 31.309, -12.322, 261.072 ],
+            "position": [
+              31.309,
+              -12.322,
+              261.072
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 25,
@@ -3471,105 +5785,138 @@
             "barrel_angle": 10
           },
           {
-            "position": [ -67.611, -21.480, 202.216 ],
+            "position": [
+              -67.611,
+              -21.48,
+              202.216
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           },
           {
-            "position": [ 67.611, -21.480, 202.216 ],
+            "position": [
+              67.611,
+              -21.48,
+              202.216
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ -170.494, -7.124, 159.013 ],
+            "position": [
+              -170.494,
+              -7.124,
+              159.013
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 170.494, -7.124, 159.013 ],
+            "position": [
+              170.494,
+              -7.124,
+              159.013
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -137.112, -16.086, 111.194 ],
+            "position": [
+              -137.112,
+              -16.086,
+              111.194
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 270
           },
           {
-            "position": [ 137.112, -16.086, 111.194 ],
+            "position": [
+              137.112,
+              -16.086,
+              111.194
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 90
           },
           {
-            "position": [ 0.00, -10.702, -70.544 ],
+            "position": [
+              0.0,
+              -10.702,
+              -70.544
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 180
           },
           {
-            "position": [ 0.00, 36.078, -23.502 ],
+            "position": [
+              0.0,
+              36.078,
+              -23.502
+            ],
             "color": "orange",
             "arccolor": "#500",
             "cycle_time": 12.42,
             "damage_coeff": 1.62,
             "range": 1470,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 180
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - transport_ship - Olympic Class --------------------------------
     {
+      #--- Olympic class 320m, scaled to 593
       "key": "transport_ship",
-      "name": "Transport",
+      "name": "Olympic Class",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "transport",
-      "meshscale": 5.82530164718628,
-      "radarscale": 1.0,
-      "exclusionradius": 55.0,
+      "artfileroot": "FED_Olympic",
+      "meshscale": 0.2158,
+      "radarscale": 0.77,
+      "exclusionradius": 75.0,
       "meshrotate": 0,
       "shields": [
-        90,
-        90
+        640,
+        640
       ],
       "hullpoints": 6,
-      "long_desc": "An unarmed colony transport, filled with homesteading cargo and civilian colonists. Displacement: 80 kt. ",
+      "long_desc": "Olympic Class Medical Cruiser, often engaged for first response to planetary disasters. Displacement: 768 kT.",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -3589,67 +5936,16 @@
       "internalmapw": 20,
       "internalmaph": 21,
       "internalsymmetry": 1,
-      "turn_rate": 0.6,
-      "speed_coeff": 1,
-      "scan_strength_coeff": 1,
-      "ship_energy_cost": 1,
-      "warp_energy_cost": 2.0,
-      "jump_energy_cost": 1,
+      "turn_rate": 0.53,
+      "speed_coeff": 0.78,
+      "scan_strength_coeff": 1.5,
+      "ship_energy_cost": 1.25,
+      "warp_energy_cost": 0.9,
+      "jump_energy_cost": 2,
       "roles": "ship, civilian,transport",
-      "hull_port_sets": {
-        "exhaust": [
-          {
-            "position": [
-              -1.931,
-              1.702,
-              -9.889
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              1.931,
-              1.702,
-              -9.889
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -4.566,
-              1.793,
-              -9.114
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              4.566,
-              1.793,
-              -9.114
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              -7.138,
-              1.812,
-              -8.379
-            ],
-            "color": "purple"
-          },
-          {
-            "position": [
-              7.138,
-              1.812,
-              -8.379
-            ],
-            "color": "purple"
-          }
-        ]
-      }
+      "hull_port_sets": {}
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - luxury_liner - Risian Luxury Liner -------------------------------
     {
       "key": "luxury_liner",
       "name": "Luxury Liner",
@@ -3745,23 +6041,24 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - cargo_ship - Generic longer Cargo Ship -------------------------------
     {
+      #--- Generic longer Freighter, scaled relative to cardassian generic freighter (256m) to 411m, then scaled up to 645
       "key": "cargo_ship",
       "name": "Cargo",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "cargo",
-      "meshscale": 5.5595555305481,
-      "radarscale": 1.0,
-      "exclusionradius": 50.0,
+      "artfileroot": "GNR_Freighter",
+      "meshscale": 0.255,
+      "radarscale": 0.819,
+      "exclusionradius": 90.0,
       "meshrotate": 0,
       "shields": [
         70,
         70
       ],
       "hullpoints": 2,
-      "long_desc": "An unarmed bulk freighter, slowly moving cheap cargo between the stars. Displacement: 75 kt. ",
+      "long_desc": "An unarmed bulk freighter, slowly moving cheap cargo between the stars. Displacement: 429.8 kt. ",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -3788,92 +6085,26 @@
       "warp_energy_cost": 1,
       "jump_energy_cost": 1,
       "roles": "ship,civilian,cargo",
-      "hull_port_sets": {
-        "exhaust": [
-          {
-            "position": [
-              -2.99830627441406,
-              0.11535706371069,
-              -7.56566381454468
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              -2.04807686805725,
-              0.11535706371069,
-              -8.03491306304932
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              -1.2141820192337,
-              0.11535706371069,
-              -8.72314548492432
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              -0.328474342823029,
-              -1.07242977619171,
-              -10.4965152740479
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              2.99830627441406,
-              0.11535706371069,
-              -7.56566381454468
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              2.04807686805725,
-              0.11535706371069,
-              -8.03491306304932
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              1.2141820192337,
-              0.11535706371069,
-              -8.72314548492432
-            ],
-            "color": "yellow"
-          },
-          {
-            "position": [
-              0.328474342823029,
-              -1.07242977619171,
-              -10.4965152740479
-            ],
-            "color": "yellow"
-          }
-        ]
-      }
+      "hull_port_sets": {}
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - science_ship - Nova Class-------------------------------
     {
+      #--- Nova 180m, scaled to 514
       "key": "science_ship",
-      "name": "Science",
+      "name": "NoVa Class",
       "origin": "Terran",
       "side": "USFP",
-      "artfileroot": "science_vessel",
-      "meshscale": 4.83322143554688,
-      "radarscale": 1.0,
-      "exclusionradius": 40.0,
+      "artfileroot": "FED_Nova",
+      "meshscale": 0.1401,
+      "radarscale": 0.675,
+      "exclusionradius": 50.0,
       "meshrotate": 0,
       "shields": [
-        60,
-        60
+        1400,
+        1400
       ],
-      "hullpoints": 2,
-      "long_desc": "A peaceful ship of Science, unlocking the secrets among the stars.",
+      "hullpoints": 4,
+      "long_desc": "Nova Class long range science vessel. Displacement: 98.3 kT",
       "tubecount": 0,
       "torpedostart": [
         {
@@ -3893,35 +6124,16 @@
       "internalmapw": 13,
       "internalmaph": 17,
       "internalsymmetry": 1,
-      "turn_rate": 1,
-      "speed_coeff": 1,
+      "turn_rate": 1.26,
+      "speed_coeff": 1.19,
       "scan_strength_coeff": 2,
-      "ship_energy_cost": 0.5,
-      "warp_energy_cost": 2,
-      "jump_energy_cost": 0.7,
+      "ship_energy_cost": 0.94,
+      "warp_energy_cost": 0.8,
+      "jump_energy_cost": 1.5,
       "roles": "ship,civilian,science",
-      "hull_port_sets": {
-        "exhaust": [
-          {
-            "position": [
-              -1.59130120277405,
-              0.0282030180096626,
-              -0.233217284083366
-            ],
-            "color": "blue"
-          },
-          {
-            "position": [
-              1.59130120277405,
-              0.0282030180096626,
-              -0.233217284083366
-            ],
-            "color": "blue"
-          }
-        ]
-      }
+      "hull_port_sets": {}
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - biomech_a -------------------------------
     {
       "key": "biomech_a",
       "name": "Biomech A",
@@ -4032,7 +6244,7 @@
         }
       ]
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - biomech_b -------------------------------
     {
       "key": "biomech_b",
       "name": "Biomech B",
@@ -4143,7 +6355,7 @@
         }
       ]
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - biomech_c -------------------------------
     {
       "key": "biomech_c",
       "name": "Biomech C",
@@ -4254,7 +6466,7 @@
         }
       ]
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - biomech_d -------------------------------
     {
       "key": "biomech_d",
       "name": "Biomech D",
@@ -4365,16 +6577,16 @@
         }
       ]
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Jem Hadar Attack Ship ~95m, scaled up 4x in blender
+      #---------------------------------- ship data - skaraan_defiler - Jem Hadar Attack Ship -------------------------------
     {
+      #--- Jem Hadar Attack Ship ~95m, scaled up 4x in blender
       "key": "skaraan_defiler",
       "name": "Attack Ship",
       "origin": "Skaraan",
       "side": "Skaraan",
       "artfileroot": "JEM_Attack_Ship",
       "meshscale": 0.1,
-      "radarscale": .75,
+      "radarscale": ".75,",
       "exclusionradius": 25.0,
       "meshrotate": 0,
       "long_desc": "Displacement: 30.7 kT. These Jem'Hadar fighters form the backbone of the Dominion fleet, also serving as patrol ships and scouts.",
@@ -4400,8 +6612,8 @@
       "turn_rate": 1.57,
       "speed_coeff": 2.17,
       "scan_strength_coeff": 1,
-      "ship_energy_cost": .92,
-      "warp_energy_cost": .7,
+      "ship_energy_cost": ".92,",
+      "warp_energy_cost": ".7,",
       "jump_energy_cost": 1,
       "roles": "ship,warship,medium,loner",
       "shields": [
@@ -4412,7 +6624,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 6.046, -28.463, 170.487 ],
+            "position": [
+              6.046,
+              -28.463,
+              170.487
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 4.85,
@@ -4422,7 +6638,11 @@
             "barrel_angle": 40
           },
           {
-            "position": [ -6.046, -28.463, 170.487 ],
+            "position": [
+              -6.046,
+              -28.463,
+              170.487
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 4.85,
@@ -4434,9 +6654,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Chel Grett ~335m
+      #---------------------------------- ship data - skaraan_enforcer - Breen Chel Grett -------------------------------
     {
+      #--- Chel Grett ~335m
       "key": "skaraan_enforcer",
       "name": "Chel Grett",
       "origin": "Skaraan",
@@ -4466,7 +6686,7 @@
       "internalmapw": 19,
       "internalmaph": 19,
       "internalsymmetry": 0,
-      "turn_rate": .97,
+      "turn_rate": ".97,",
       "speed_coeff": 1.81,
       "scan_strength_coeff": 1,
       "ship_energy_cost": 1.06,
@@ -4481,7 +6701,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 64.084, -4.485, 117.015 ],
+            "position": [
+              64.084,
+              -4.485,
+              117.015
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 5.48,
@@ -4491,7 +6715,11 @@
             "barrel_angle": 20
           },
           {
-            "position": [ -63.172, -6.228, 116.923 ],
+            "position": [
+              -63.172,
+              -6.228,
+              116.923
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 5.48,
@@ -4501,7 +6729,11 @@
             "barrel_angle": 340
           },
           {
-            "position": [ 3.712, 5.424, 191.687 ],
+            "position": [
+              3.712,
+              5.424,
+              191.687
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 5.48,
@@ -4511,7 +6743,11 @@
             "barrel_angle": 350
           },
           {
-            "position": [ 9.307, -16.406, 110.970 ],
+            "position": [
+              9.307,
+              -16.406,
+              110.97
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 5.48,
@@ -4521,7 +6757,11 @@
             "barrel_angle": 10
           },
           {
-            "position": [ 3.293, -5.002, -50.534 ],
+            "position": [
+              3.293,
+              -5.002,
+              -50.534
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 5.48,
@@ -4533,9 +6773,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Jem Hadar Battlecruiser ~650m
+      #---------------------------------- ship data - skaraan_executor - Jem Hadar Battlecruiser -------------------------------
     {
+      #--- Jem Hadar Battlecruiser ~650m
       "key": "skaraan_executor",
       "name": "Battlecruiser",
       "origin": "Skaraan",
@@ -4580,7 +6820,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 12.829, 19.366, 72.976 ],
+            "position": [
+              12.829,
+              19.366,
+              72.976
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 15,
@@ -4590,7 +6834,11 @@
             "barrel_angle": 20
           },
           {
-            "position": [ -12.829, 19.366, 72.976 ],
+            "position": [
+              -12.829,
+              19.366,
+              72.976
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 15,
@@ -4600,7 +6848,11 @@
             "barrel_angle": 340
           },
           {
-            "position": [ 0.0, -67.790, -64.785 ],
+            "position": [
+              0.0,
+              -67.79,
+              -64.785
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 7.41,
@@ -4610,27 +6862,39 @@
             "barrel_angle": 180
           },
           {
-            "position": [ -12.741, -47.677, 198.977 ],
+            "position": [
+              -12.741,
+              -47.677,
+              198.977
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 7.41,
             "damage_coeff": 1.5,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 300
           },
           {
-            "position": [ 12.741, -47.677, 198.977 ],
+            "position": [
+              12.741,
+              -47.677,
+              198.977
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 7.41,
             "damage_coeff": 1.5,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 60
           },
           {
-            "position": [ -12.741, 46.559, -190.932 ],
+            "position": [
+              -12.741,
+              46.559,
+              -190.932
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 7.41,
@@ -4640,7 +6904,11 @@
             "barrel_angle": 210
           },
           {
-            "position": [ 12.741, 46.559, -190.932 ],
+            "position": [
+              12.741,
+              46.559,
+              -190.932
+            ],
             "color": "purple",
             "arccolor": "#500",
             "cycle_time": 7.41,
@@ -4652,9 +6920,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Orion Interceptor, 74.5m?  4x scale model
+      #---------------------------------- ship data - pirate_fighter - Orion Interceptor Fighter -------------------------------
     {
+      #--- Orion Interceptor, 74.5m?  4x scale model
       "key": "pirate_fighter",
       "name": "Interceptor",
       "origin": "Pirate",
@@ -4692,14 +6960,18 @@
       "turn_rate": 2.5,
       "speed_coeff": 2.37,
       "scan_strength_coeff": 0.5,
-      "ship_energy_cost": .79,
-      "warp_energy_cost": .55,
+      "ship_energy_cost": ".79,",
+      "warp_energy_cost": ".55,",
       "jump_energy_cost": 1,
       "roles": "cockpit,fighter,pirate",
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 0.0, -50.873, 86.845 ],
+            "position": [
+              0.0,
+              -50.873,
+              86.845
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 2.1,
@@ -4709,7 +6981,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 0.0, -50.873, 86.845 ],
+            "position": [
+              0.0,
+              -50.873,
+              86.845
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 2.1,
@@ -4721,9 +6997,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Orion Corvette Frigate, 261m
+      #---------------------------------- ship data - pirate_longbow - Orion Corvette Frigate -------------------------------
     {
+      #--- Orion Corvette Frigate, 261m
       "key": "pirate_longbow",
       "name": "Corvette Frigate",
       "origin": "Pirate",
@@ -4769,7 +7045,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -33.162, -24.496, 74.140 ],
+            "position": [
+              -33.162,
+              -24.496,
+              74.14
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 4.96,
@@ -4781,9 +7061,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Brigand Cruiser, ~618m?
+      #---------------------------------- ship data - pirate_strongbow - Orion Brigand Cruiser -------------------------------
     {
+      #--- Brigand Cruiser, ~618m?
       "key": "pirate_strongbow",
       "name": "Brigand Cruiser",
       "origin": "Pirate",
@@ -4829,7 +7109,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 45.846, -10.222, 303.553 ],
+            "position": [
+              45.846,
+              -10.222,
+              303.553
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4839,7 +7123,11 @@
             "barrel_angle": 12
           },
           {
-            "position": [ -45.846, -10.222, 303.553 ],
+            "position": [
+              -45.846,
+              -10.222,
+              303.553
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4849,7 +7137,11 @@
             "barrel_angle": 348
           },
           {
-            "position": [ 49.371, -4.142, 295.692 ],
+            "position": [
+              49.371,
+              -4.142,
+              295.692
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4859,7 +7151,11 @@
             "barrel_angle": 18
           },
           {
-            "position": [ -49.371, -4.142, 295.692 ],
+            "position": [
+              -49.371,
+              -4.142,
+              295.692
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4869,7 +7165,11 @@
             "barrel_angle": 342
           },
           {
-            "position": [ 39.803, 5.686, 281.598 ],
+            "position": [
+              39.803,
+              5.686,
+              281.598
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4879,7 +7179,11 @@
             "barrel_angle": 24
           },
           {
-            "position": [ -39.803, 5.686, 281.598 ],
+            "position": [
+              -39.803,
+              5.686,
+              281.598
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4889,7 +7193,11 @@
             "barrel_angle": 336
           },
           {
-            "position": [ 133.137, -13.047, -158.267 ],
+            "position": [
+              133.137,
+              -13.047,
+              -158.267
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4899,7 +7207,11 @@
             "barrel_angle": 168
           },
           {
-            "position": [ -133.137, -13.047, -158.267 ],
+            "position": [
+              -133.137,
+              -13.047,
+              -158.267
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12,
@@ -4911,9 +7223,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Orion Corsair Carrier, ~514m?
+      #---------------------------------- ship data - pirate_brigantine - Orion Corsair Carrier -------------------------------
     {
+      #--- Orion Corsair Carrier, ~514m?
       "key": "pirate_brigantine",
       "name": "Corsair Carrier",
       "origin": "Pirate",
@@ -4960,7 +7272,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ 20.974, -35.183, 262.867 ],
+            "position": [
+              20.974,
+              -35.183,
+              262.867
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.88,
@@ -4970,7 +7286,11 @@
             "barrel_angle": 12
           },
           {
-            "position": [ -20.974, -35.183, 262.867 ],
+            "position": [
+              -20.974,
+              -35.183,
+              262.867
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.88,
@@ -4980,7 +7300,11 @@
             "barrel_angle": 348
           },
           {
-            "position": [ 37.947, -37.367, 224.794 ],
+            "position": [
+              37.947,
+              -37.367,
+              224.794
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.88,
@@ -4990,7 +7314,11 @@
             "barrel_angle": 12
           },
           {
-            "position": [ -37.947, -37.367, 224.794 ],
+            "position": [
+              -37.947,
+              -37.367,
+              224.794
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.88,
@@ -5000,7 +7328,11 @@
             "barrel_angle": 348
           },
           {
-            "position": [ -106.631, -24.352, -117.456 ],
+            "position": [
+              -106.631,
+              -24.352,
+              -117.456
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.88,
@@ -5010,7 +7342,11 @@
             "barrel_angle": 192
           },
           {
-            "position": [ 106.631, -24.352, -117.456 ],
+            "position": [
+              106.631,
+              -24.352,
+              -117.456
+            ],
             "color": "green",
             "arccolor": "#500",
             "cycle_time": 12.88,
@@ -5022,9 +7358,9 @@
         ]
       }
     },
-        #---------------------------------- ship data --------------------------------
-        # B'Rel scaled to ~110-120m, but file is 4x scale to be reasonably sized
+      #---------------------------------- ship data - xim_corsair - Klingon B'Rel --------------------------------
     {
+        # B'Rel scaled to ~110-120m, but file is 4x scale to be reasonably sized
       "key": "xim_corsair",
       "name": "B'Rel",
       "origin": "Ximni",
@@ -5055,7 +7391,7 @@
           "Mine": 0
         }
       ],
-       "internalmapscale": 1.0,
+      "internalmapscale": 1.0,
       "internalmapw": 17,
       "internalmaph": 16,
       "internalsymmetry": 1,
@@ -5069,7 +7405,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -233.613, -110.758, 151.982 ], 
+            "position": [
+              -233.613,
+              -110.758,
+              151.982
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 6.11,
@@ -5079,7 +7419,11 @@
             "barrel_angle": 355
           },
           {
-            "position": [ 233.613, -110.758, 151.982 ], 
+            "position": [
+              233.613,
+              -110.758,
+              151.982
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 6.11,
@@ -5089,7 +7433,11 @@
             "barrel_angle": 5
           },
           {
-            "position": [ 0.00, 9.941, 282.694 ],
+            "position": [
+              0.0,
+              9.941,
+              282.694
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 6.11,
@@ -5099,7 +7447,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ 0.00, 9.941, 282.694 ],
+            "position": [
+              0.0,
+              9.941,
+              282.694
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 6.11,
@@ -5111,9 +7463,9 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    # K'Tinga scaled to ~284m, but file is 3x scale to be reasonably sized
+      #---------------------------------- ship data - xim_destroyer - Klingon K'Tinga --------------------------------
     {
+      # K'Tinga scaled to ~284m, but file is 3x scale to be reasonably sized
       "key": "xim_destroyer",
       "name": "K'Tinga",
       "origin": "Ximni",
@@ -5159,71 +7511,95 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -185.840, -12.406, -108.173 ],
+            "position": [
+              -185.84,
+              -12.406,
+              -108.173
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.62,
             "damage_coeff": 1.3,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 345
           },
           {
-            "position": [ 185.840, -12.406, -108.173 ],
+            "position": [
+              185.84,
+              -12.406,
+              -108.173
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.62,
             "damage_coeff": 1.3,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 0
           },
           {
-            "position": [ -185.840, -12.406, -108.173 ],
+            "position": [
+              -185.84,
+              -12.406,
+              -108.173
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.62,
             "damage_coeff": 1.3,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 0
           },
           {
-            "position": [ 185.840, -12.406, -108.173 ],
+            "position": [
+              185.84,
+              -12.406,
+              -108.173
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.62,
             "damage_coeff": 1.3,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 15
           },
           {
-            "position": [ -53.062, 37.882, 338.021 ],
+            "position": [
+              -53.062,
+              37.882,
+              338.021
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.62,
             "damage_coeff": 1.3,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 30
           },
           {
-            "position": [ 53.062, 37.882, 338.021 ],
+            "position": [
+              53.062,
+              37.882,
+              338.021
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 8.62,
             "damage_coeff": 1.3,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 330
           }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Vor'Cha 481m
+      #---------------------------------- ship data - xim_battleship - Klingon Vor'Cha -------------------------------
     {
+      #--- Vor'Cha 481m
       "key": "xim_battleship",
       "name": "Vor'Cha",
       "origin": "Ximni",
@@ -5269,7 +7645,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -18.377, 11.322, 225.532 ],
+            "position": [
+              -18.377,
+              11.322,
+              225.532
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 14.08,
@@ -5279,7 +7659,11 @@
             "barrel_angle": 345
           },
           {
-            "position": [ 18.377, 11.322, 225.532 ],
+            "position": [
+              18.377,
+              11.322,
+              225.532
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 14.08,
@@ -5289,17 +7673,25 @@
             "barrel_angle": 15
           },
           {
-            "position": [ -88.447, 7.996, -81.667 ],
+            "position": [
+              -88.447,
+              7.996,
+              -81.667
+            ],
             "color": "yellow",
             "arccolor": "#500",
-             "cycle_time": 14.08,
+            "cycle_time": 14.08,
             "damage_coeff": 1.81,
             "range": 1470,
             "arcwidth": 60,
             "barrel_angle": 330
           },
           {
-            "position": [ 88.447, 7.996, -81.667 ],
+            "position": [
+              88.447,
+              7.996,
+              -81.667
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 14.08,
@@ -5309,7 +7701,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ -180.758, -15.332, -117.283 ],
+            "position": [
+              -180.758,
+              -15.332,
+              -117.283
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 14.08,
@@ -5319,7 +7715,11 @@
             "barrel_angle": 300
           },
           {
-            "position": [ -180.758, -15.332, -117.283 ],
+            "position": [
+              -180.758,
+              -15.332,
+              -117.283
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 14.08,
@@ -5329,7 +7729,11 @@
             "barrel_angle": 60
           },
           {
-            "position": [ 0.0, 44.527, 83.424 ],
+            "position": [
+              0.0,
+              44.527,
+              83.424
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.53,
@@ -5337,13 +7741,13 @@
             "range": 1470,
             "arcwidth": 90,
             "barrel_angle": 0
-          },
+          }
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
-    #--- Negh'Var 681m
+      #---------------------------------- ship data - xim_dreadnought - Klingon Negh'Var --------------------------------
     {
+      #--- Negh'Var 681m
       "key": "xim_dreadnought",
       "name": "Negh'Var",
       "origin": "Ximni",
@@ -5390,7 +7794,11 @@
       "hull_port_sets": {
         "beam Primary Beams": [
           {
-            "position": [ -93.602, -65.791, 54.680 ],
+            "position": [
+              -93.602,
+              -65.791,
+              54.68
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5400,7 +7808,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ 93.602, -65.791, 54.680 ],
+            "position": [
+              93.602,
+              -65.791,
+              54.68
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5410,7 +7822,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ -93.602, -64.791, 54.680 ],
+            "position": [
+              -93.602,
+              -64.791,
+              54.68
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5420,7 +7836,11 @@
             "barrel_angle": 330
           },
           {
-            "position": [ 93.602, -64.791, 54.680 ],
+            "position": [
+              93.602,
+              -64.791,
+              54.68
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5430,7 +7850,11 @@
             "barrel_angle": 30
           },
           {
-            "position": [ 0.00, -7.626, 382.515 ],
+            "position": [
+              0.0,
+              -7.626,
+              382.515
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5440,7 +7864,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -1.00, -7.626, 382.515 ],
+            "position": [
+              -1.0,
+              -7.626,
+              382.515
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5450,7 +7878,11 @@
             "barrel_angle": 0
           },
           {
-            "position": [ -1.544, 30.287, 312.371 ],
+            "position": [
+              -1.544,
+              30.287,
+              312.371
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5460,7 +7892,11 @@
             "barrel_angle": 270
           },
           {
-            "position": [ 1.544, 30.287, 312.371 ],
+            "position": [
+              1.544,
+              30.287,
+              312.371
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
@@ -5470,27 +7906,39 @@
             "barrel_angle": 90
           },
           {
-            "position": [ 0.0, 78.397, -132.349 ],
+            "position": [
+              0.0,
+              78.397,
+              -132.349
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
             "damage_coeff": 2.58,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 180
           },
           {
-            "position": [ 0.00, -27.912, -231.221 ],
+            "position": [
+              0.0,
+              -27.912,
+              -231.221
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 18.83,
             "damage_coeff": 2.58,
             "range": 1400,
-            "arcwidth": 120,
+            "arcwidth": 90,
             "barrel_angle": 180
           },
           {
-            "position": [ -216.631, -10.307, 141.833 ],
+            "position": [
+              -216.631,
+              -10.307,
+              141.833
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 6.07,
@@ -5500,7 +7948,11 @@
             "barrel_angle": 300
           },
           {
-            "position": [ 216.631, -10.307, 141.833 ],
+            "position": [
+              216.631,
+              -10.307,
+              141.833
+            ],
             "color": "yellow",
             "arccolor": "#500",
             "cycle_time": 6.07,
@@ -5512,7 +7964,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_avenger - Ximni Fighter --------------------------------
     {
       "key": "xim_avenger",
       "name": "Avenger",
@@ -5598,7 +8050,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_carrier - Ximni Carrier -------------------------------
     {
       "key": "xim_carrier",
       "name": "Carrier",
@@ -5702,7 +8154,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_light_carrier - Ximni Light Carrier -------------------------------
     {
       "key": "xim_light_carrier",
       "name": "Light Carrier",
@@ -5797,7 +8249,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_escort - Ximni Escort -------------------------------
     {
       "key": "xim_escort",
       "name": "Escort",
@@ -5899,7 +8351,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_corvette - Ximni Corvette -------------------------------
     {
       "key": "xim_corvette",
       "name": "Corvette",
@@ -5988,7 +8440,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_light_cruiser - Ximni Light Cruiser -------------------------------
     {
       "key": "xim_light_cruiser",
       "name": "Light Cruiser",
@@ -6098,7 +8550,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_missile_cruiser - Ximni Missile Cruiser -------------------------------
     {
       "key": "xim_missile_cruiser",
       "name": "Missile Cruiser",
@@ -6172,7 +8624,7 @@
         ]
       }
     },
-    #---------------------------------- ship data --------------------------------
+      #---------------------------------- ship data - xim_scout - Ximni Scout -------------------------------
     {
       "key": "xim_scout",
       "name": "Scout",
@@ -6244,6 +8696,127 @@
           }
         ]
       }
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "asteroid_crystal_blue",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_1",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "asteroid_crystal_red",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_2",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "asteroid_crystal_yellow",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_3",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "asteroid_crystal_silver",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_4",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "asteroid_crystal_green",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_5",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "plain_asteroid_6",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_6",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "plain_asteroid_7",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_7",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "plain_asteroid_8",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_8",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "plain_asteroid_9",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_9",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "plain_asteroid_10",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_10",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
+    },
+      #---------------------------------- asteroid data --------------------------------
+    {
+      "key": "plain_asteroid_11",
+      "name": "Asteroid",
+      "origin": "Roklithoid",
+      "side": "asteroid",
+      "artfileroot": "Asteroid_11",
+      "meshscale": 0.5,
+      "radarscale": 1.0,
+      "exclusionradius": 50.0
     },
     {
       #---------------------------------- small object data --------------------------------
